@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/suggestedEditsItemRootView" android:paddingTop="4.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ProgressBar android:layout_gravity="center" android:id="@id/cardItemProgressBar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="64.0dip" android:layout_marginBottom="64.0dip" />
+    <org.wikipedia.views.WikiErrorView android:layout_gravity="center" android:id="@id/cardItemErrorView" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="48.0dip" android:layout_marginBottom="48.0dip" />
+    <ScrollView android:id="@id/cardItemContainer" android:fadingEdge="vertical" android:fadingEdgeLength="32.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" android:requiresFadingEdge="vertical">
+        <LinearLayout android:orientation="vertical" android:id="@id/cardClickArea" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:id="@id/viewArticleImagePlaceholder" android:layout_width="fill_parent" android:layout_height="300.0dip">
+                <org.wikipedia.views.FaceAndColorDetectImageView android:id="@id/viewArticleImage" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/viewArticleContainer" android:paddingTop="11.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="24.0sp" android:textColor="?primary_text_color" android:ellipsize="end" android:id="@id/viewArticleTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" android:lineSpacingExtra="8.0sp" android:fontFamily="serif" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" />
+                <LinearLayout android:orientation="horizontal" android:id="@id/viewArticleSubtitleContainer" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip">
+                    <View android:id="@id/accentSideBar" android:background="@color/accent50" android:layout_width="4.0dip" android:layout_height="fill_parent" />
+                    <org.wikipedia.views.GoneIfEmptyTextView android:textSize="16.0sp" android:textColor="?material_theme_primary_color" android:ellipsize="end" android:id="@id/viewArticleSubtitle" android:background="?multi_select_background_color" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="3" android:layout_weight="1.0" android:lineSpacingExtra="6.0sp" android:fontFamily="sans-serif-medium" android:paddingStart="13.0dip" android:paddingEnd="16.0dip" android:letterSpacing="0.01" />
+                </LinearLayout>
+                <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="16.0sp" android:textColor="?primary_text_color" android:ellipsize="end" android:id="@id/viewArticleExtract" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:minLines="3" android:lineSpacingExtra="12.0sp" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" />
+                    <LinearLayout android:orientation="vertical" android:id="@id/viewImageSummaryContainer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="16.0dip" android:paddingEnd="16.0dip">
+                        <org.wikipedia.views.ImageDetailHorizontalView android:id="@id/viewImageFileName" android:layout_width="fill_parent" android:layout_height="wrap_content" app:title="@string/suggested_edits_image_caption_summary_title_image" />
+                        <org.wikipedia.views.ImageDetailHorizontalView android:id="@id/viewImageArtist" android:layout_width="fill_parent" android:layout_height="wrap_content" app:title="@string/suggested_edits_image_caption_summary_title_artist" />
+                        <org.wikipedia.views.ImageDetailHorizontalView android:id="@id/viewImageDate" android:layout_width="fill_parent" android:layout_height="wrap_content" app:title="@string/suggested_edits_image_caption_summary_title_date" />
+                        <org.wikipedia.views.ImageDetailHorizontalView android:id="@id/viewImageSource" android:layout_width="fill_parent" android:layout_height="wrap_content" app:title="@string/suggested_edits_image_caption_summary_title_source" />
+                        <org.wikipedia.views.ImageDetailHorizontalView android:id="@id/viewImageLicense" android:layout_width="fill_parent" android:layout_height="wrap_content" app:title="@string/suggested_edits_image_caption_summary_title_license" />
+                    </LinearLayout>
+                </FrameLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

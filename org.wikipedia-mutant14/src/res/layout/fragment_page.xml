@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.wikipedia.views.SwipeRefreshLayoutWithScroll android:id="@id/page_refresh_container" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/page_contents_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <org.wikipedia.views.ObservableWebView android:id="@id/page_web_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <org.wikipedia.page.leadimages.PageHeaderView android:id="@id/page_header_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="16.0dip" />
+        <org.wikipedia.views.WikiErrorView android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/page_error" android:background="?android:windowBackground" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_gravity="bottom" android:id="@id/fragment_page_coordinator" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="?actionBarSize" />
+        <org.wikipedia.page.PageActionTabLayout android:layout_gravity="bottom" android:id="@id/page_actions_tab_layout" android:background="?paper_color" android:layout_width="fill_parent" android:layout_height="?actionBarSize" android:elevation="8.0dip" />
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</org.wikipedia.views.SwipeRefreshLayoutWithScroll>

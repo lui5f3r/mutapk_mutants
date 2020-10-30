@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="notification_channel_name">
+        <item quantity="other">Sćehnjenje nastawkow</item>
+        <item quantity="one">Sćehnjenje nastawka</item>
+    </plurals>
+    <plurals name="reading_list_article_not_offline_message">
+        <item quantity="other">Tutej nastawkaj njejstej hižo offline přistupnej.</item>
+        <item quantity="one">Tutón nastawk njeje hižo offline přistupny.</item>
+    </plurals>
+    <plurals name="reading_list_article_offline_message">
+        <item quantity="other">Tutej nastawkaj stej nětko offline přistupnej.</item>
+        <item quantity="one">Tutón nastawk je nětko offline přistupny.</item>
+    </plurals>
+</resources>

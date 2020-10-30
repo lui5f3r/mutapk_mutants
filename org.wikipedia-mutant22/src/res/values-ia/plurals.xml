@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="notification_archive_message">
+        <item quantity="other">%d notificationes archivate</item>
+        <item quantity="one">Notification archivate</item>
+    </plurals>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/fragment_main_coordinator" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <androidx.viewpager2.widget.ViewPager2 android:id="@id/fragment_main_view_pager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/fragment_main_nav_tab_container" android:background="?nav_tab_background_color" android:layout_width="fill_parent" android:layout_height="?actionBarSize" android:baselineAligned="false" android:elevation="6.0dip">
+        <org.wikipedia.navtab.NavTabLayout android:layout_gravity="bottom" android:id="@id/fragment_main_nav_tab_layout" android:background="@android:color/transparent" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.8" app:elevation="0.0dip" app:itemIconTint="?nav_tab_item_color_state" app:itemTextAppearanceActive="@style/BottomNavigationTextAppearanceActive" app:itemTextAppearanceInactive="@style/BottomNavigationTextAppearanceInactive" app:itemTextColor="?nav_tab_item_color_state" app:labelVisibilityMode="labeled" app:tabGravity="fill" app:tabIndicatorColor="@android:color/transparent" />
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/nav_more_container" android:background="?selectableItemBackground" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.2" android:contentDescription="@string/nav_item_more">
+            <ImageView android:id="@id/menu_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="9.5dip" android:contentDescription="@null" app:srcCompat="@drawable/ic_menu_themed_24dp" app:tint="?material_theme_secondary_color" />
+            <TextView android:textSize="10.0sp" android:textColor="?material_theme_de_emphasised_color" android:layout_gravity="center_horizontal" android:paddingTop="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/nav_item_more" android:textAlignment="center" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

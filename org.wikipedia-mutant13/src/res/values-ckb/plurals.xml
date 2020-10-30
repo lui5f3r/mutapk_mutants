@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="format_reading_list_statistical_summary">
+        <item quantity="other">%1$d وتار, %2$.2f MB</item>
+        <item quantity="one">1 وتار, %2$.2f MB</item>
+    </plurals>
+    <plurals name="notification_archive_message">
+        <item quantity="other">%d ئەرشیڤی ھۆشدارییەکان</item>
+        <item quantity="one">ئەرشیڤی ھۆشداری</item>
+    </plurals>
+    <plurals name="notification_channel_name">
+        <item quantity="other">داگرتنی وتارەکان</item>
+        <item quantity="one">داگرتنی وتار</item>
+    </plurals>
+    <plurals name="notification_syncing_title">
+        <item quantity="other">داگرتنی %1$d وتارەکان…</item>
+        <item quantity="one">داگرتنی %1$d وتار…</item>
+    </plurals>
+    <plurals name="suggested_edits_added_contribution_label">
+        <item quantity="other">%d کاراکتەرت زیاد کرد</item>
+        <item quantity="one">%d کاراکتەرت زیاد کرد</item>
+    </plurals>
+    <plurals name="suggested_edits_contribution">
+        <item quantity="other">ھاوبەشیکردنەکان</item>
+        <item quantity="one">ھاوبەشیکردن</item>
+    </plurals>
+    <plurals name="suggested_edits_contribution_diff_count_text">
+        <item quantity="other">%1$s کاراکتەر</item>
+        <item quantity="one">%1$s کاراکتەر</item>
+    </plurals>
+    <plurals name="suggested_edits_edit_streak_detail_text">
+        <item quantity="other">%d ڕۆژ</item>
+        <item quantity="one">%d ڕۆژ</item>
+    </plurals>
+    <plurals name="suggested_edits_removed_contribution_label">
+        <item quantity="other">%d کاراکتەرت لابرد</item>
+        <item quantity="one">%d کاراکتەرت لابرد</item>
+    </plurals>
+    <plurals name="suggested_edits_tags_diff_count_text">
+        <item quantity="other">%1$s تاگ</item>
+        <item quantity="one">%1$s تاگ</item>
+    </plurals>
+    <plurals name="view_continue_reading_card_subtitle">
+        <item quantity="other">%d ڕۆژ لەمەوبەر</item>
+        <item quantity="one">دوێنێ</item>
+    </plurals>
+    <plurals name="wikipedia_languages_remove_dialog_title">
+        <item quantity="other">سڕینەوەی زمانە دەستنیشانکراوەکان</item>
+        <item quantity="one">سڕینەوەی زمانی دەستنیشانکراو؟</item>
+    </plurals>
+</resources>

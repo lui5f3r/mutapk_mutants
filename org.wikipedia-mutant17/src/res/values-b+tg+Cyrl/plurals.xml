@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="suggested_edits_contribution_count">
+        <item quantity="other">%d саҳмҳо</item>
+        <item quantity="one">1 саҳм</item>
+    </plurals>
+</resources>

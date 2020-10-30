@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="format_reading_list_statistical_summary">
+        <item quantity="other">%1$dটা প্ৰবন্ধ, %2$.2f MB</item>
+        <item quantity="one">এটা প্ৰবন্ধ, %2$.2f MB</item>
+    </plurals>
+    <plurals name="multi_items_selected">
+        <item quantity="other">%dটা বাছনি কৰিছে</item>
+        <item quantity="one">%dটা বাছনি কৰিছে</item>
+    </plurals>
+    <plurals name="reading_list_article_offline_message">
+        <item quantity="other">"এই প্ৰবন্ধকেইটা এতিয়া অফলাইন উপলব্ধ হ'ব।"</item>
+        <item quantity="one">"এই প্ৰবন্ধটো এতিয়া অফলাইন উপলব্ধ হ'ব।"</item>
+    </plurals>
+    <plurals name="suggested_edits_contribution">
+        <item quantity="other">বৰঙণিসমূহ</item>
+        <item quantity="one">বৰঙণি</item>
+    </plurals>
+    <plurals name="suggested_edits_contribution_seen_times">
+        <item quantity="other">যোৱা ৩০ দিনত %s বাৰ চোৱা হৈছে।</item>
+        <item quantity="one">যোৱা ৩০ দিনত এবাৰ চোৱা হৈছে।</item>
+    </plurals>
+    <plurals name="suggested_edits_edit_streak_detail_text">
+        <item quantity="other">%d দিনবোৰ</item>
+        <item quantity="one">%d দিন</item>
+    </plurals>
+    <plurals name="view_continue_reading_card_subtitle">
+        <item quantity="other">%d দিন আগতে</item>
+        <item quantity="one">কালি</item>
+    </plurals>
+    <plurals name="wikipedia_languages_remove_dialog_title">
+        <item quantity="other">নিৰ্বাচিত ভাষাবোৰ আঁতৰাওক?</item>
+        <item quantity="one">নিৰ্বাচিত ভাষা আঁতৰাওক?</item>
+    </plurals>
+</resources>

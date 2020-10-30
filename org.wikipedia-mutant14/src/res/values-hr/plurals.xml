@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="diff_years">
+        <item quantity="other">Prije %d godine</item>
+        <item quantity="one">Prošle godine</item>
+    </plurals>
+    <plurals name="notification_channel_name">
+        <item quantity="other">Preuzimanje članaka</item>
+        <item quantity="one">Preuzimanje članka</item>
+        <item quantity="few">Preuzimanje nekoliko članaka</item>
+    </plurals>
+    <plurals name="notification_syncing_description">
+        <item quantity="other">Preostalo je %1$d članaka</item>
+        <item quantity="one">Preostao je %1$d članak</item>
+        <item quantity="few">Preostala su %1$d članka</item>
+    </plurals>
+    <plurals name="notification_syncing_title">
+        <item quantity="other">Preuzimanje %1$d članaka…</item>
+        <item quantity="one">Preuzimanje %1$d članka…</item>
+        <item quantity="few">Preuzimanje %1$d članka…</item>
+    </plurals>
+    <plurals name="suggested_edits_contribution">
+        <item quantity="other">Doprinosi</item>
+        <item quantity="one">Doprinos</item>
+    </plurals>
+    <plurals name="suggested_edits_contribution_count">
+        <item quantity="other">%d doprinosa</item>
+        <item quantity="one">jedan doprinos</item>
+        <item quantity="few">%d doprinos(a)</item>
+    </plurals>
+    <plurals name="suggested_edits_edit_streak_detail_text">
+        <item quantity="other">%d day</item>
+        <item quantity="one">%d dan</item>
+    </plurals>
+    <plurals name="view_continue_reading_card_subtitle">
+        <item quantity="other">prije %d dana</item>
+        <item quantity="one">jučer</item>
+    </plurals>
+</resources>

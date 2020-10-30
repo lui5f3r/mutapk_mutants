@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/edit_section_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ScrollView android:id="@id/edit_section_scroll" android:paddingBottom="48.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/activity_horizontal_margin" android:paddingEnd="@dimen/activity_horizontal_margin">
+            <org.wikipedia.views.PlainPasteEditText android:textColor="?primary_text_color" android:textColorHighlight="#ffff9632" android:gravity="start|center|top" android:id="@id/edit_section_text" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="textMultiLine" android:imeOptions="actionNone|flagNoExtractUi" android:fontFamily="monospace" />
+        </ScrollView>
+        <HorizontalScrollView android:layout_gravity="bottom" android:id="@id/edit_keyboard_overlay_container" android:background="?android:colorBackground" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="4.0dip" android:paddingEnd="4.0dip" android:elevation="12.0dip">
+            <org.wikipedia.views.WikiTextKeyboardView android:id="@id/edit_keyboard_overlay" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </HorizontalScrollView>
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.fragment.app.FragmentContainerView android:name="org.wikipedia.edit.preview.EditPreviewFragment" android:id="@id/edit_section_preview_fragment" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.fragment.app.FragmentContainerView android:name="org.wikipedia.edit.summaries.EditSummaryFragment" android:id="@id/edit_section_summary_fragment" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+    <ScrollView android:id="@id/edit_section_captcha_container" android:background="?android:windowBackground" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include layout="@layout/group_captcha" />
+    </ScrollView>
+    <ScrollView android:id="@id/edit_section_abusefilter_container" android:background="?android:windowBackground" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:background="?android:windowBackground" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="center_horizontal" android:id="@id/edit_section_abusefilter_image" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_margin="24.0dip" android:contentDescription="@null" app:srcCompat="@drawable/ic_abusefilter_warn" />
+            </LinearLayout>
+            <TextView android:textAppearance="?android:textAppearanceLarge" android:id="@id/edit_section_abusefilter_title" android:padding="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/abusefilter_title_warn" />
+            <TextView android:id="@id/edit_section_abusefilter_text" android:padding="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/abusefilter_text_warn" />
+        </LinearLayout>
+    </ScrollView>
+    <org.wikipedia.views.WikiErrorView android:layout_gravity="center" android:orientation="vertical" android:id="@id/view_edit_section_error" android:background="?android:windowBackground" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/activity_horizontal_margin" android:paddingEnd="@dimen/activity_horizontal_margin" />
+    <ProgressBar android:id="@id/view_progress_bar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-6.0dip" android:indeterminate="true" android:progressBackgroundTint="@color/accent30" android:indeterminateTint="?colorAccent" style="@style/Widget.AppCompat.ProgressBar.Horizontal" />
+</FrameLayout>

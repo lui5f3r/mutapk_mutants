@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/tab_title_container" android:layout_width="fill_parent" android:layout_height="@dimen/tab_title_container_height">
+        <FrameLayout android:layout_gravity="center_vertical" android:layout_width="@dimen/tab_icon_size" android:layout_height="@dimen/tab_icon_size" android:layout_marginLeft="@dimen/phone_tab_title_padding" android:layout_marginRight="@dimen/phone_tab_title_drawable_padding" android:layout_marginStart="@dimen/phone_tab_title_padding" android:layout_marginEnd="@dimen/phone_tab_title_drawable_padding">
+            <ImageView android:id="@id/tab_icon_image_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerInside" android:contentDescription="@null" />
+            <de.mrapp.android.view.CircularProgressBar android:layout_gravity="center" android:id="@id/tab_progress_bar" android:visibility="gone" android:layout_width="@dimen/tab_progress_bar_size" android:layout_height="@dimen/tab_progress_bar_size" android:thickness="@dimen/tab_progress_bar_thickness" />
+        </FrameLayout>
+        <TextView android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/tab_title_text_view" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginRight="@dimen/phone_tab_title_padding" android:layout_weight="1.0" android:layout_marginEnd="@dimen/phone_tab_title_padding" style="@style/Tab.Title.Phone" />
+        <ImageButton android:layout_gravity="center_vertical" android:id="@id/close_tab_button" android:background="?selectableItemBackgroundBorderless" android:layout_width="@dimen/tab_title_container_height" android:layout_height="fill_parent" android:src="@drawable/phone_tab_close_button_icon_light" android:contentDescription="@null" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/content_container" android:background="@color/phone_tab_content_background_color_light" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/preview_image_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="matrix" android:contentDescription="@null" />
+        <View android:id="@id/border_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+</LinearLayout>

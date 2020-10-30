@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="notification_channel_name">
+        <item quantity="other">Ngundeur artikel</item>
+        <item quantity="one">Ngundeur artikel</item>
+    </plurals>
+    <plurals name="reading_list_article_not_offline_message">
+        <item quantity="other">Ieu artikel-artikel teu sayaga deui sacara oflén.</item>
+        <item quantity="one">Ieu artikel teu sayaga deui sacara oflén.</item>
+    </plurals>
+    <plurals name="reading_list_article_offline_message">
+        <item quantity="other">Ieu artikel-artikel ayeuna bakal sayaga kalawan oflén.</item>
+        <item quantity="one">Ieu artikel ayeuna bakal sayaga kalawan oflén.</item>
+    </plurals>
+    <plurals name="view_continue_reading_card_subtitle">
+        <item quantity="other">%d poé ka tukang</item>
+        <item quantity="one">Kamari</item>
+    </plurals>
+    <plurals name="wikipedia_languages_remove_dialog_title">
+        <item quantity="other">Piceunan basa kapilih?</item>
+        <item quantity="one">Piceun basa kapilih?</item>
+    </plurals>
+</resources>

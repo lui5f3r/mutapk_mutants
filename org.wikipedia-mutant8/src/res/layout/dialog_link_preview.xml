@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" app:behavior_peekHeight="@dimen/bottomSheetPeekHeight"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.core.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/dialog_link_preview_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/bottomSheetPeekHeight" android:animateLayoutChanges="true">
+            <LinearLayout android:id="@id/link_preview_toolbar" android:background="?selectableItemBackground" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="64.0dip">
+                <ImageView android:layout_gravity="center_vertical" android:id="@id/link_preview_thumbnail" android:visibility="gone" android:layout_width="@dimen/defaultListItemSize" android:layout_height="@dimen/defaultListItemSize" android:layout_marginTop="16.0dip" android:layout_marginBottom="16.0dip" android:contentDescription="@null" android:layout_marginStart="16.0dip" style="@style/ImageViewDefault" />
+                <TextView android:textSize="20.0sp" android:textColor="?primary_text_color" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@id/link_preview_title" android:paddingBottom="4.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="3" android:layout_weight="1.0" android:lineSpacingMultiplier="0.9" android:fontFamily="serif" android:layout_marginStart="16.0dip" />
+                <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center_vertical" android:id="@id/link_preview_overflow_button" android:background="?actionBarItemBackground" android:padding="12.0dip" android:focusable="true" android:clickable="true" android:layout_width="48.0dip" android:layout_height="48.0dip" android:contentDescription="@string/abc_action_menu_overflow_description" app:srcCompat="@drawable/ic_more_vert_white_24dp" app:tint="?material_theme_secondary_color" />
+            </LinearLayout>
+            <View android:background="?material_theme_border_color" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+            <LinearLayout android:orientation="vertical" android:id="@id/dialog_link_preview_content_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="16.0sp" android:textColor="?primary_text_color" android:id="@id/link_preview_extract" android:paddingTop="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lineSpacingMultiplier="1.3" android:textIsSelectable="true" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" />
+                <org.wikipedia.gallery.GalleryThumbnailScrollView android:layout_gravity="center_horizontal" android:id="@id/link_preview_thumbnail_gallery" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" />
+            </LinearLayout>
+            <org.wikipedia.page.linkpreview.LinkPreviewErrorView android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/dialog_link_preview_error_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <View android:layout_width="fill_parent" android:layout_height="70.0dip" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <ProgressBar android:layout_gravity="center" android:id="@id/link_preview_progress" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</FrameLayout>

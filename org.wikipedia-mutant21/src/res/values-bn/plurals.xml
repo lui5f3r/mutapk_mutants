@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="diff_years">
+        <item quantity="other">%d বছর আগে</item>
+        <item quantity="one">গত বছর</item>
+    </plurals>
+    <plurals name="format_reading_list_statistical_summary">
+        <item quantity="other">%1$dটি নিবন্ধ, %2$.2f এমবি</item>
+        <item quantity="one">১টি নিবন্ধ, %2$.2f এমবি</item>
+    </plurals>
+    <plurals name="notification_syncing_description">
+        <item quantity="other">%1$dটি নিবন্ধ বাকী</item>
+        <item quantity="one">%1$dটি নিবন্ধ বাকী</item>
+    </plurals>
+    <plurals name="notification_syncing_reading_list_description">
+        <item quantity="other">%1$dটি তালিকা বাকী</item>
+        <item quantity="one">%1$dটি তালিকা বাকী</item>
+    </plurals>
+    <plurals name="notification_syncing_title">
+        <item quantity="other">%1$dটি নিবন্ধ ডাউনলোড হচ্ছে...</item>
+        <item quantity="one">%1$dটি নিবন্ধ ডাউনলোড হচ্ছে...</item>
+    </plurals>
+    <plurals name="reading_list_article_not_offline_message">
+        <item quantity="other">এই নিবন্ধগুলি আর অফলাইনে উপলব্ধ হবে না।</item>
+        <item quantity="one">এই নিবন্ধটি আর অফলাইনে উপলব্ধ হবে না।</item>
+    </plurals>
+    <plurals name="reading_list_article_offline_message">
+        <item quantity="other">এই নিবন্ধগুলি এখন অফলাইনে উপলব্ধ হবে।</item>
+        <item quantity="one">এই নিবন্ধটি এখন অফলাইনে উপলব্ধ হবে।</item>
+    </plurals>
+    <plurals name="suggested_edits_contribution_diff_count_text">
+        <item quantity="other">%1$sটি অক্ষর</item>
+        <item quantity="one">%1$sটি অক্ষর</item>
+    </plurals>
+    <plurals name="view_continue_reading_card_subtitle">
+        <item quantity="other">%d দিন আগে</item>
+        <item quantity="one">গতকাল</item>
+    </plurals>
+    <plurals name="wikipedia_languages_remove_dialog_title">
+        <item quantity="other">নির্বাচিত ভাষাগুলি সরাবেন?</item>
+        <item quantity="one">নির্বাচিত ভাষা সরাবেন?</item>
+    </plurals>
+</resources>

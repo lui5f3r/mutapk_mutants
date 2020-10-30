@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/view_card_header_large_background" android:background="?selectableItemBackground" android:focusable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <org.wikipedia.views.FaceAndColorDetectImageView android:id="@id/view_card_header_large_image" android:layout_width="96.0dip" android:layout_height="fill_parent" android:scaleType="centerCrop" app:layout_constraintEnd_toEndOf="parent" style="@style/ImageViewDefault" />
+    <TextView android:textAppearance="@style/TextAppearance.AppCompat.Medium" android:textSize="16.0sp" android:textColor="@android:color/white" android:ellipsize="end" android:id="@id/view_card_header_large_title" android:paddingTop="16.0dip" android:paddingBottom="8.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="2" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" app:layout_constraintEnd_toStartOf="@id/view_card_header_large_image" app:layout_constraintStart_toStartOf="parent" />
+    <TextView android:textAppearance="@style/TextAppearance.AppCompat.Medium" android:textSize="12.0sp" android:textColor="@android:color/white" android:id="@id/view_card_header_large_subtitle" android:paddingBottom="16.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/view_card_header_large_title" />
+</merge>

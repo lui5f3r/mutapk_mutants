@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="diff_years">
+        <item quantity="other">Пре %d године</item>
+        <item quantity="one">Прошле године</item>
+    </plurals>
+    <plurals name="notification_archive_message">
+        <item quantity="other">%d обавештења су архивирана</item>
+        <item quantity="one">Обавештење је архивирано</item>
+    </plurals>
+    <plurals name="notification_channel_name">
+        <item quantity="other">Преузимам чланке</item>
+        <item quantity="one">Преузимам чланак</item>
+    </plurals>
+    <plurals name="notification_syncing_description">
+        <item quantity="other">Преостао је %1$d чланак</item>
+        <item quantity="one">Преостао је %1$d чланак</item>
+    </plurals>
+    <plurals name="notification_syncing_reading_list_channel_name">
+        <item quantity="other">Синхронизација спискова за читање</item>
+        <item quantity="one">Синхронизација списка за читање</item>
+    </plurals>
+    <plurals name="notification_syncing_reading_list_description">
+        <item quantity="other">Преостале су %1$d листе</item>
+        <item quantity="one">Преостала је %1$d листа</item>
+    </plurals>
+    <plurals name="notification_syncing_reading_list_title">
+        <item quantity="other">Синхронизовање %1$d листе…</item>
+        <item quantity="one">Синхронизовање %1$d листе…</item>
+    </plurals>
+    <plurals name="notification_syncing_title">
+        <item quantity="other">Преузимање %1$d чланка…</item>
+        <item quantity="one">Преузимање %1$d чланка…</item>
+    </plurals>
+    <plurals name="reading_list_article_not_offline_message">
+        <item quantity="other">Ови чланци више неће бити доступни офлајн.</item>
+        <item quantity="one">Овај чланак више неће бити доступан офлајн.</item>
+    </plurals>
+    <plurals name="reading_list_article_offline_message">
+        <item quantity="other">Ови чланаци ће сада бити доступни офлајн.</item>
+        <item quantity="one">Овај чланак ће сада бити доступан офлајн.</item>
+    </plurals>
+    <plurals name="suggested_edits_contribution">
+        <item quantity="other">Доприноси</item>
+        <item quantity="one">Допринос</item>
+    </plurals>
+    <plurals name="suggested_edits_contribution_count">
+        <item quantity="other">%d доприноса</item>
+        <item quantity="one">1 допринос</item>
+    </plurals>
+    <plurals name="suggested_edits_edit_streak_detail_text">
+        <item quantity="other">%d дани</item>
+        <item quantity="one">%d дан</item>
+    </plurals>
+    <plurals name="view_continue_reading_card_subtitle">
+        <item quantity="other">пре %d дана</item>
+        <item quantity="one">јуче</item>
+    </plurals>
+    <plurals name="wikipedia_languages_remove_dialog_title">
+        <item quantity="other">Уклонити изабране језике?</item>
+        <item quantity="one">Уклонити изабрани језик?</item>
+    </plurals>
+</resources>

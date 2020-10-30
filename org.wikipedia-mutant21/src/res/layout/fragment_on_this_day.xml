@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:id="@id/app_bar" android:background="?paper_color" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="180.0dip">
+        <com.google.android.material.appbar.CollapsingToolbarLayout android:id="@id/collapsing_toolbar_layout" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent" app:contentScrim="?paper_color" app:layout_scrollFlags="exitUntilCollapsed|scroll" app:statusBarScrim="?paper_color">
+            <FrameLayout android:layout_gravity="bottom" android:id="@id/header_frame_layout" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_collapseMode="parallax">
+                <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:paddingBottom="20.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginStart="72.0dip">
+                    <LinearLayout android:orientation="horizontal" android:id="@id/day_container" android:background="?android:selectableItemBackground" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/on_this_day_open_date_picker">
+                        <TextView android:textSize="24.0sp" android:textStyle="normal" android:textColor="?material_theme_primary_color" android:id="@id/day" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip" android:fontFamily="serif" android:layout_marginEnd="8.0dip" android:transitionName="@string/transition_on_this_day" />
+                        <ImageView android:layout_gravity="center_vertical" android:id="@id/drop_down" android:layout_width="24.0dip" android:layout_height="24.0dip" android:contentDescription="@null" app:srcCompat="@drawable/ic_arrow_drop_down_black_24dp" app:tint="?toolbar_icon_color" />
+                    </LinearLayout>
+                    <TextView android:textSize="14.0sp" android:textColor="?material_theme_primary_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/on_this_day_card_title" android:alpha="0.5" android:textAllCaps="true" />
+                    <TextView android:textSize="14.0sp" android:textColor="?material_theme_primary_color" android:id="@id/day_info_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:alpha="0.5" />
+                </LinearLayout>
+                <ImageView android:layout_gravity="end|bottom|center" android:id="@id/calendar" android:layout_width="96.0dip" android:layout_height="106.0dip" android:layout_marginBottom="-36.0dip" android:contentDescription="@null" android:alpha="0.5" app:srcCompat="@drawable/ic_event_black_24dp" app:tint="?toolbar_icon_color" />
+            </FrameLayout>
+            <androidx.appcompat.widget.Toolbar android:gravity="center_vertical" android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="?actionBarSize" app:layout_collapseMode="pin">
+                <LinearLayout android:gravity="start|center" android:orientation="horizontal" android:id="@id/toolbar_day_container" android:background="?android:selectableItemBackground" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/on_this_day_open_date_picker">
+                    <TextView android:textSize="20.0sp" android:textStyle="normal" android:textColor="?material_theme_primary_color" android:gravity="center_vertical" android:id="@id/toolbar_day" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lineSpacingExtra="8.0sp" android:fontFamily="sans-serif-medium" android:layout_marginEnd="8.0dip" android:letterSpacing="0.01" />
+                    <ImageView android:id="@id/drop_down_toolbar" android:layout_width="24.0dip" android:layout_height="24.0dip" android:contentDescription="@null" app:srcCompat="@drawable/ic_arrow_drop_down_black_24dp" app:tint="?toolbar_icon_color" />
+                </LinearLayout>
+                <FrameLayout android:layout_gravity="end" android:id="@id/indicator_layout" android:clickable="false" android:layout_width="24.0dip" android:layout_height="24.0dip" android:alpha="0.5" android:layout_marginEnd="16.0dip">
+                    <ImageView android:layout_width="24.0dip" android:layout_height="24.0dip" android:contentDescription="@null" app:srcCompat="@drawable/ic_empty_event" app:tint="?toolbar_icon_color" />
+                    <TextView android:textSize="8.0sp" android:textColor="?material_theme_primary_color" android:id="@id/indicator_date" android:layout_width="12.0dip" android:layout_height="10.0dip" android:layout_marginTop="8.0dip" android:layout_marginStart="6.0dip" style="@style/TextViewCentered" />
+                </FrameLayout>
+            </androidx.appcompat.widget.Toolbar>
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/events_recycler" android:scrollbars="vertical" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ProgressBar android:layout_gravity="center_horizontal" android:id="@id/on_this_day_progress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="48.0dip" />
+        <org.wikipedia.views.WikiErrorView android:layout_gravity="center_horizontal" android:id="@id/on_this_day_error_view" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

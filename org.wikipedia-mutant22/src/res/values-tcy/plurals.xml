@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="reading_list_article_not_offline_message">
+        <item quantity="other">These articles will no longer be available offline.</item>
+        <item quantity="one">This article will no longer be available offline.</item>
+    </plurals>
+    <plurals name="reading_list_article_offline_message">
+        <item quantity="other">These articles will now be available offline.</item>
+        <item quantity="one">This article will now be available offline.</item>
+    </plurals>
+</resources>

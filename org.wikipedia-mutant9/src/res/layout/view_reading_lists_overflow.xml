@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.wikipedia.views.WikiCardView android:id="@id/reading_lists_overflow_card_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-2.0dip" android:layout_marginEnd="2.0dip" app:cardUseCompatPadding="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:divider="?list_separator_drawable" android:minWidth="160.0dip" android:showDividers="middle">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:id="@id/reading_lists_overflow_sort_by" android:text="@string/reading_list_sort_ellipsis" style="@style/OverflowMenuItem" />
+            <TextView android:id="@id/reading_lists_overflow_create_new_list" android:text="@string/reading_lists_menu_create_list" style="@style/OverflowMenuItem" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/reading_lists_overflow_refresh" android:background="?android:selectableItemBackground" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:focusable="true" android:clickable="true" android:minHeight="48.0dip" style="@style/OverflowMenuItem">
+            <TextView android:textSize="16.0sp" android:textStyle="normal" android:textColor="?android:textColorPrimary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/reading_lists_refresh_sync_option" />
+            <TextView android:textSize="14.0sp" android:textColor="?android:textColorTertiary" android:id="@id/reading_lists_overflow_last_sync" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/reading_list_menu_last_sync" />
+        </LinearLayout>
+    </LinearLayout>
+</org.wikipedia.views.WikiCardView>

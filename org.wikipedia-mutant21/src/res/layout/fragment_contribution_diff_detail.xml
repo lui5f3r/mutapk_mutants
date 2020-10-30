@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:id="@id/topView" android:layout_width="fill_parent" android:layout_height="340.0dip" />
+        <ImageView android:id="@id/back" android:padding="16.0dip" android:layout_width="?actionBarSize" android:layout_height="?actionBarSize" android:contentDescription="@null" app:srcCompat="@drawable/ic_arrow_back_themed_24dp" app:tint="?material_theme_primary_color" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="?actionBarSize" android:paddingStart="16.0dip" android:paddingEnd="16.0dip">
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:layout_marginBottom="8.0dip">
+                <View android:id="@id/contributionDiffIndicatorLine" android:background="?action_mode_green_background" android:layout_width="6.0dip" android:layout_height="fill_parent" />
+                <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="24.0dip">
+                    <TextView android:textSize="16.0sp" android:textStyle="normal" android:textColor="?action_mode_green_background" android:id="@id/contributionDiffText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="sans-serif-medium" />
+                    <TextView android:textSize="24.0sp" android:textStyle="bold" android:textColor="?primary_text_color" android:ellipsize="end" android:id="@id/contributionDiffDetailText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="3" android:lineSpacingExtra="8.0sp" android:fontFamily="sans-serif" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:id="@id/revisionLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="30.0dip">
+                <View android:background="?material_theme_primary_color" android:layout_width="18.0dip" android:layout_height="1.0dip" />
+                <TextView android:textSize="14.0sp" android:textStyle="italic" android:textColor="?material_theme_primary_color" android:id="@id/revisionText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/suggested_edits_contribution_current_revision_text" android:lineSpacingExtra="6.0sp" android:layout_marginStart="4.0dip" />
+            </LinearLayout>
+            <View android:background="?color_group_60" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="24.0dip" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginBottom="16.0dip">
+                <TextView android:textSize="14.0sp" android:textStyle="normal" android:textColor="?material_theme_de_emphasised_color" android:id="@id/contributionCategory" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lineSpacingExtra="2.0sp" android:fontFamily="sans-serif-medium" />
+                <LinearLayout android:id="@id/contributionContainer" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="?colorAccent" android:ellipsize="end" android:id="@id/contributionTitle" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="2" android:layout_weight="1.0" android:lineSpacingExtra="8.0sp" android:fontFamily="sans-serif" />
+                    <ImageView android:id="@id/contributionImage" android:layout_width="52.0dip" android:layout_height="52.0dip" android:contentDescription="@null" android:layout_marginStart="16.0dip" />
+                </LinearLayout>
+            </LinearLayout>
+            <org.wikipedia.userprofile.ContributionDiffDetailView android:id="@id/pageViewsDetailView" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <org.wikipedia.userprofile.ContributionDiffDetailView android:id="@id/typeDetailView" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <org.wikipedia.userprofile.ContributionDiffDetailView android:id="@id/dateTimeDetailView" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <org.wikipedia.userprofile.ContributionDiffDetailView android:id="@id/languageDetailView" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </FrameLayout>
+</ScrollView>

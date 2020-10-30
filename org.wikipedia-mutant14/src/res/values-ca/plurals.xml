@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="diff_years">
+        <item quantity="other">Fa %d anys</item>
+        <item quantity="one">El darrer any</item>
+    </plurals>
+    <plurals name="format_reading_list_statistical_detail">
+        <item quantity="other">%1$d de %2$d articles disponibles fora de línia, %3$.2f MB</item>
+        <item quantity="one">"%1$d d'1 article disponible fora de línia, %3$.2f MB"</item>
+    </plurals>
+    <plurals name="format_reading_list_statistical_summary">
+        <item quantity="other">%1$d articles, %2$.2f MB</item>
+        <item quantity="one">1 article, %2$.2f MB</item>
+    </plurals>
+    <plurals name="multi_items_selected">
+        <item quantity="other">%d seleccionats</item>
+        <item quantity="one">%d seleccionat</item>
+    </plurals>
+    <plurals name="notification_archive_message">
+        <item quantity="other">%d notificacions arxivades</item>
+        <item quantity="one">Notificació arxivada</item>
+    </plurals>
+    <plurals name="notification_channel_name">
+        <item quantity="other">"S'estan baixant els articles"</item>
+        <item quantity="one">"S'està baixant l'article"</item>
+    </plurals>
+    <plurals name="notification_syncing_description">
+        <item quantity="other">queden %1$d articles</item>
+        <item quantity="one">queda %1$d article</item>
+    </plurals>
+    <plurals name="notification_syncing_reading_list_channel_name">
+        <item quantity="other">Sincronització de les llistes de lectura</item>
+        <item quantity="one">Sincronització de la llista de lectura</item>
+    </plurals>
+    <plurals name="notification_syncing_reading_list_description">
+        <item quantity="other">queden %1$d llistes</item>
+        <item quantity="one">queda %1$d llista</item>
+    </plurals>
+    <plurals name="notification_syncing_reading_list_title">
+        <item quantity="other">"S'estan sincronitzant %1$d llistes…"</item>
+        <item quantity="one">"S'està sincronitzant %1$d llista…"</item>
+    </plurals>
+    <plurals name="notification_syncing_title">
+        <item quantity="other">"S'estan baixant %1$d articles…"</item>
+        <item quantity="one">"S'està baixant %1$d article…"</item>
+    </plurals>
+    <plurals name="reading_list_article_not_offline_message">
+        <item quantity="other">Aquests articles no continuaran estant disponibles fora de línia.</item>
+        <item quantity="one">Aquest article no continuarà estant disponible fora de línia.</item>
+    </plurals>
+    <plurals name="reading_list_article_offline_message">
+        <item quantity="other">"Aquests articles estaran disponibles fora de línia a partir d'ara."</item>
+        <item quantity="one">"Aquest article estarà disponible fora de línia a partir d'ara."</item>
+    </plurals>
+    <plurals name="reading_list_articles_deleted">
+        <item quantity="other">%d articles suprimits de la llista</item>
+        <item quantity="one">%d article suprimit de la llista</item>
+    </plurals>
+    <plurals name="search_results_count">
+        <item quantity="other">%d resultats</item>
+        <item quantity="one">1 resultat</item>
+    </plurals>
+    <plurals name="suggested_edits_added_contribution_label">
+        <item quantity="other">heu afegit %d caràcters</item>
+        <item quantity="one">heu afegit %d caràcter</item>
+    </plurals>
+    <plurals name="suggested_edits_contribution">
+        <item quantity="other">Contribucions</item>
+        <item quantity="one">Contribució</item>
+    </plurals>
+    <plurals name="suggested_edits_contribution_count">
+        <item quantity="other">%d contribucions</item>
+        <item quantity="one">1 contribució</item>
+    </plurals>
+    <plurals name="suggested_edits_contribution_diff_count_text">
+        <item quantity="other">%1$s caràcters</item>
+        <item quantity="one">%1$s caràcter</item>
+    </plurals>
+    <plurals name="suggested_edits_contribution_seen_times">
+        <item quantity="other">Vist %s vegades en els darrers 30 dies.</item>
+        <item quantity="one">Vista una vegada en els darrers 30 dies.</item>
+    </plurals>
+    <plurals name="suggested_edits_edit_streak_detail_text">
+        <item quantity="other">%d dies</item>
+        <item quantity="one">%d dia</item>
+    </plurals>
+    <plurals name="suggested_edits_image_tag_contribution_label">
+        <item quantity="other">Heu afegit %d etiquetes</item>
+        <item quantity="one">Heu afegit %d etiqueta</item>
+    </plurals>
+    <plurals name="suggested_edits_removed_contribution_label">
+        <item quantity="other">heu suprimit %d caràcters</item>
+        <item quantity="one">heu suprimit %d caràcter</item>
+    </plurals>
+    <plurals name="suggested_edits_rewards_contributions">
+        <item quantity="other">Heu fet %d contribucions a la Viquipèdia fent servir Edicions suggerides. Gràcies!</item>
+        <item quantity="one">Heu fet una contribució a la Viquipèdia fent servir Edicions suggerides. Gràcies!</item>
+    </plurals>
+    <plurals name="suggested_edits_rewards_edit_streaks">
+        <item quantity="other">Fins ara heu canviat cada dia durant %1$d Continueu, %2$s!</item>
+        <item quantity="one">Heu editat un dia sencer. Seguiu, %2$s!</item>
+    </plurals>
+    <plurals name="suggested_edits_rewards_page_views">
+        <item quantity="other">%d persones han vist les vostres modificacions durant els darrers 30 dies. Gràcies i segueix endavant!</item>
+        <item quantity="one">Una persona ha vist les vostres modificacions durant els darrers 30 dies. Gràcies i segueix endavant!</item>
+    </plurals>
+    <plurals name="suggested_edits_tags_diff_count_text">
+        <item quantity="other">%1$s etiquetes</item>
+        <item quantity="one">%1$s etiqueta</item>
+    </plurals>
+    <plurals name="view_continue_reading_card_subtitle">
+        <item quantity="other">Fa %d dies</item>
+        <item quantity="one">Ahir</item>
+    </plurals>
+    <plurals name="wikipedia_languages_remove_dialog_title">
+        <item quantity="other">Voleu suprimir les llengües seleccionades?</item>
+        <item quantity="one">Voleu suprimir la llengua seleccionada?</item>
+    </plurals>
+</resources>

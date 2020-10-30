@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.textview.MaterialTextView android:id="@id/article_menu_bookmark" android:tag="0" android:text="@string/article_menu_bar_save_button" app:drawableTopCompat="@drawable/ic_bookmark_border_white_24dp" style="@style/PageActionTabLayoutButtonStyle" />
+    <com.google.android.material.textview.MaterialTextView android:id="@id/article_menu_change_language" android:tag="1" android:text="@string/article_menu_bar_language_button" app:drawableTopCompat="@drawable/ic_translate_white_24dp" style="@style/PageActionTabLayoutButtonStyle" />
+    <com.google.android.material.textview.MaterialTextView android:id="@id/article_menu_search" android:tag="2" android:text="@string/article_menu_bar_search_button" app:drawableTopCompat="@drawable/ic_search_white_24dp" style="@style/PageActionTabLayoutButtonStyle" />
+    <com.google.android.material.textview.MaterialTextView android:id="@id/article_menu_font_and_theme" android:tag="3" android:text="@string/article_menu_bar_theme_button" app:drawableTopCompat="@drawable/ic_format_size_white_24dp" style="@style/PageActionTabLayoutButtonStyle" />
+    <com.google.android.material.textview.MaterialTextView android:id="@id/article_menu_show_toc" android:tag="4" android:text="@string/article_menu_bar_contents_button" app:drawableTopCompat="@drawable/ic_list_white_24dp" style="@style/PageActionTabLayoutButtonStyle" />
+</merge>

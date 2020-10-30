@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/tab_container" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <de.mrapp.android.tabswitcher.TabSwitcher android:id="@id/tab_switcher" android:background="?android:colorBackground" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="?actionBarSize" app:layoutPolicy="auto" app:tabBackgroundColor="?paper_color" app:tabContentBackgroundColor="?paper_color" />
+    <androidx.appcompat.widget.Toolbar android:theme="@style/TabToolbarTheme" android:id="@id/tab_toolbar" android:background="?android:colorBackground" android:layout_width="fill_parent" android:layout_height="?actionBarSize">
+        <LinearLayout android:gravity="end|center" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <org.wikipedia.views.TabCountsView android:id="@id/tab_counts_view" android:layout_width="48.0dip" android:layout_height="fill_parent" android:contentDescription="@string/page_tabs_back" />
+        </LinearLayout>
+    </androidx.appcompat.widget.Toolbar>
+</FrameLayout>

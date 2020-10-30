@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:id="@id/talkRefreshView" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <androidx.core.widget.NestedScrollView android:id="@id/talkScrollContainer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="?actionBarSize">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <androidx.recyclerview.widget.RecyclerView android:id="@id/talkRecyclerView" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+                <com.google.android.material.textfield.TextInputLayout android:id="@id/replySubjectLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:hint="@string/talk_reply_subject" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" app:errorTextAppearance="@style/TextInputLayoutErrorTextAppearance">
+                    <org.wikipedia.views.PlainPasteEditText android:textSize="16.0sp" android:id="@id/replySubjectText" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lineSpacingExtra="6.0sp" android:inputType="textEmailSubject" android:imeOptions="actionNext|flagNoExtractUi" />
+                </com.google.android.material.textfield.TextInputLayout>
+                <com.google.android.material.textfield.TextInputLayout android:id="@id/replyTextLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginBottom="16.0dip" android:hint="@string/talk_reply_hint" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" app:errorTextAppearance="@style/TextInputLayoutErrorTextAppearance">
+                    <org.wikipedia.views.PlainPasteEditText android:textSize="16.0sp" android:id="@id/replyEditText" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lineSpacingExtra="6.0sp" android:inputType="textMultiLine" android:imeOptions="actionNone|flagNoExtractUi" />
+                </com.google.android.material.textfield.TextInputLayout>
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+        <androidx.appcompat.widget.Toolbar android:id="@id/replyToolbar" android:layout_width="fill_parent" android:layout_height="?actionBarSize" style="@style/ToolbarStyle">
+            <ImageView android:layout_gravity="end" android:id="@id/replySaveButton" android:background="?selectableItemBackgroundBorderless" android:padding="12.0dip" android:focusable="true" android:clickable="true" android:layout_width="48.0dip" android:layout_height="fill_parent" android:contentDescription="@string/description_edit_save" app:srcCompat="@drawable/ic_check_circle_black_24dp" app:tint="?themed_icon_color" />
+        </androidx.appcompat.widget.Toolbar>
+        <org.wikipedia.views.WikiErrorView android:layout_gravity="center" android:orientation="vertical" android:id="@id/talkErrorView" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <ProgressBar android:layout_gravity="top" android:id="@id/talkProgressBar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-7.0dip" android:indeterminate="true" style="@style/Widget.AppCompat.ProgressBar.Horizontal" />
+        <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton android:textColor="@android:color/white" android:layout_gravity="end|bottom|center" android:id="@id/talkReplyButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="16.0dip" android:text="@string/talk_add_reply" app:backgroundTint="?colorAccent" app:icon="@drawable/ic_add_gray_white_24dp" app:iconTint="@android:color/white" />
+    </FrameLayout>
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>

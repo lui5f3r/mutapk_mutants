@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:paddingLeft="@dimen/tablet_tab_padding_left" android:paddingRight="@dimen/tablet_tab_padding_right" android:layout_width="@dimen/tablet_tab_max_width" android:layout_height="@dimen/tablet_tab_height" android:paddingStart="@dimen/tablet_tab_padding_left" android:paddingEnd="@dimen/tablet_tab_padding_right"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/tab_title_container" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <FrameLayout android:layout_gravity="center_vertical" android:layout_width="@dimen/tab_icon_size" android:layout_height="@dimen/tab_icon_size" android:layout_marginRight="@dimen/tablet_tab_title_drawable_padding" android:layout_marginEnd="@dimen/tablet_tab_title_drawable_padding">
+            <ImageView android:id="@id/tab_icon_image_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerInside" android:contentDescription="@null" />
+            <de.mrapp.android.view.CircularProgressBar android:layout_gravity="center" android:id="@id/tab_progress_bar" android:visibility="gone" android:layout_width="@dimen/tab_progress_bar_size" android:layout_height="@dimen/tab_progress_bar_size" android:thickness="@dimen/tab_progress_bar_thickness" />
+        </FrameLayout>
+        <TextView android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/tab_title_text_view" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" style="@style/Tab.Title.Tablet" />
+    </LinearLayout>
+    <ImageButton android:layout_gravity="center_vertical" android:id="@id/close_tab_button" android:background="?selectableItemBackgroundBorderless" android:layout_width="@dimen/tablet_tab_height" android:layout_height="fill_parent" android:src="@drawable/tablet_tab_close_button_icon_light" android:contentDescription="@null" />
+</LinearLayout>

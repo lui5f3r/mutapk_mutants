@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <org.wikipedia.settings.SwitchPreferenceMultiLine android:title="@string/preference_title_notification_poll" android:key="@string/preference_key_notification_poll_enable" android:summary="@string/preference_summary_notification_poll" android:defaultValue="false" />
+    <PreferenceCategory android:title="@string/preference_category_notification_types">
+        <org.wikipedia.settings.SwitchPreferenceMultiLine android:title="@string/preference_title_notification_system" android:key="@string/preference_key_notification_system_enable" android:summary="@string/preference_summary_notification_system" android:defaultValue="true" />
+        <org.wikipedia.settings.SwitchPreferenceMultiLine android:title="@string/preference_title_notification_milestone" android:key="@string/preference_key_notification_milestone_enable" android:summary="@string/preference_summary_notification_milestone" android:defaultValue="true" />
+        <org.wikipedia.settings.SwitchPreferenceMultiLine android:title="@string/preference_title_notification_thanks" android:key="@string/preference_key_notification_thanks_enable" android:summary="@string/preference_summary_notification_thanks" android:defaultValue="true" />
+        <org.wikipedia.settings.SwitchPreferenceMultiLine android:title="@string/preference_title_notification_revert" android:key="@string/preference_key_notification_revert_enable" android:summary="@string/preference_summary_notification_revert" android:defaultValue="true" />
+        <org.wikipedia.settings.SwitchPreferenceMultiLine android:title="@string/preference_title_notification_user_talk" android:key="@string/preference_key_notification_user_talk_enable" android:summary="@string/preference_summary_notification_user_talk" android:defaultValue="true" />
+        <org.wikipedia.settings.SwitchPreferenceMultiLine android:title="@string/preference_title_notification_login_fail" android:key="@string/preference_key_notification_login_fail_enable" android:summary="@string/preference_summary_notification_login_fail" android:defaultValue="true" />
+        <org.wikipedia.settings.SwitchPreferenceMultiLine android:title="@string/preference_title_notification_mention" android:key="@string/preference_key_notification_mention_enable" android:summary="@string/preference_summary_notification_mention" android:defaultValue="true" />
+    </PreferenceCategory>
+</androidx.preference.PreferenceScreen>

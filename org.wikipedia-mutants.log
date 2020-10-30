@@ -1,0 +1,51 @@
+ThreadPool: 4
+Mutant 1: D:\MISO\PA\Laboratorios\Taller8\Punto3\MutAPK\.\mutants\\org.wikipedia-mutant1\src\\smali\org\wikipedia\offline\OfflineObjectDbHelper.smali; InvalidFilePath in line { 47 }
+	For mutant 1 the path of File at line 47 has been replaced by 510e12feb24547bfb36370e449ac2719
+Mutant 2: D:\MISO\PA\Laboratorios\Taller8\Punto3\MutAPK\.\mutants\\org.wikipedia-mutant2\src\\smali\org\wikipedia\offline\OfflineObjectDbHelper.smali; InvalidFilePath in line { 70 }
+	For mutant 2 the path of File at line 70 has been replaced by 5e11156804a44ce7a861c9a6cc3ef2d1
+Mutant 3: D:\MISO\PA\Laboratorios\Taller8\Punto3\MutAPK\.\mutants\\org.wikipedia-mutant3\src\\smali\org\wikipedia\offline\OfflineObjectDbHelper.smali; InvalidFilePath in line { 1359 }
+	For mutant 3 the path of File at line 1359 has been replaced by 746c4f1808b24815b353f006fd9f2105
+Mutant 4: D:\MISO\PA\Laboratorios\Taller8\Punto3\MutAPK\.\mutants\\org.wikipedia-mutant4\src\\smali\org\wikipedia\dataclient\okhttp\OfflineCacheInterceptor.smali; InvalidFilePath in line { 463 }
+	For mutant 4 the path of File at line 463 has been replaced by 0182d4d8c0e64b598d04303dcf1a2999
+Mutant 5: D:\MISO\PA\Laboratorios\Taller8\Punto3\MutAPK\.\mutants\\org.wikipedia-mutant5\src\\smali\org\wikipedia\dataclient\okhttp\OfflineCacheInterceptor.smali; InvalidFilePath in line { 513 }
+	For mutant 5 the path of File at line 513 has been replaced by ffd3f77608064ebca3a8f6293f20a34a
+Mutant 6: D:\MISO\PA\Laboratorios\Taller8\Punto3\MutAPK\.\mutants\\org.wikipedia-mutant6\src\\smali\org\wikipedia\dataclient\okhttp\OfflineCacheInterceptor.smali; InvalidFilePath in line { 532 }
+	For mutant 6 the path of File at line 532 has been replaced by c80f1f00ab504f359d2e8de6ac0f1f1d
+Mutant 7: .\mutants\\org.wikipedia-mutant7\src\\AndroidManifest.xml; InvalidLabel in line { 34 }
+	For mutant 7 activity label at line 34 has been change from "" to "98af61ac616f43528480a56e1d427fbb"
+Mutant 8: .\mutants\\org.wikipedia-mutant8\src\\AndroidManifest.xml; InvalidLabel in line { 35 }
+	For mutant 8 activity label at line 35 has been change from "" to "7581134ed1b84a5f868e1d238eef3344"
+Mutant 9: .\mutants\\org.wikipedia-mutant9\src\\AndroidManifest.xml; InvalidLabel in line { 36 }
+	For mutant 9 activity label at line 36 has been change from "" to "19870b154435449c9ed1ed9f8341b124"
+Mutant 10: .\mutants\\org.wikipedia-mutant10\src\\AndroidManifest.xml; InvalidLabel in line { 37 }
+	For mutant 10 activity label at line 37 has been change from "" to "6d305d2b1922467a8775219cfdeb3515"
+Mutant 11: .\mutants\\org.wikipedia-mutant11\src\\AndroidManifest.xml; InvalidLabel in line { 38 }
+	For mutant 11 activity label at line 38 has been change from "" to "db85a9cb9a7a496da23ee21e30824667"
+Mutant 12: .\mutants\\org.wikipedia-mutant12\src\\AndroidManifest.xml; InvalidLabel in line { 39 }
+	For mutant 12 activity label at line 39 has been change from "" to "b3083b19a17b4af08f02c7e7838dbc20"
+Mutant 13: .\mutants\\org.wikipedia-mutant13\src\\AndroidManifest.xml; InvalidLabel in line { 40 }
+	For mutant 13 activity label at line 40 has been change from "" to "a597af3b836042789d560a11a2e5f068"
+Mutant 14: .\mutants\\org.wikipedia-mutant14\src\\AndroidManifest.xml; InvalidLabel in line { 41 }
+	For mutant 14 activity label at line 41 has been change from "" to "2c154111329f4f83af0cf564202d10b7"
+Mutant 15: .\mutants\\org.wikipedia-mutant15\src\\AndroidManifest.xml; InvalidLabel in line { 44 }
+	For mutant 15 activity label at line 44 has been change from "" to "b3dd11def0e54fc9bee7c0eab0a50c18"
+Mutant 16: .\mutants\\org.wikipedia-mutant16\src\\AndroidManifest.xml; InvalidLabel in line { 45 }
+	For mutant 16 activity label at line 45 has been change from "" to "5e3f553359f4405cad5579418950a145"
+Mutant 17: .\mutants\\org.wikipedia-mutant17\src\\AndroidManifest.xml; InvalidLabel in line { 46 }
+	For mutant 17 activity label at line 46 has been change from "" to "a399898b6bcf48f88961d9f811749f3d"
+Mutant 18: .\mutants\\org.wikipedia-mutant18\src\\AndroidManifest.xml; InvalidLabel in line { 75 }
+	For mutant 18 activity label at line 75 has been change from "" to "4bd1ea99ccdb44798891d18f8cc32d64"
+Mutant 19: .\mutants\\org.wikipedia-mutant19\src\\AndroidManifest.xml; InvalidLabel in line { 76 }
+	For mutant 19 activity label at line 76 has been change from "" to "b22af19411924ae8aa5836bc23dabf81"
+Mutant 20: .\mutants\\org.wikipedia-mutant20\src\\AndroidManifest.xml; InvalidLabel in line { 77 }
+	For mutant 20 activity label at line 77 has been change from "" to "11df9c1652b547b591153ea88c352eea"
+Mutant 21: .\mutants\\org.wikipedia-mutant21\src\\AndroidManifest.xml; InvalidLabel in line { 78 }
+	For mutant 21 activity label at line 78 has been change from "" to "4ac31b9055d0478facafa535a1770256"
+Mutant 22: .\mutants\\org.wikipedia-mutant22\src\\AndroidManifest.xml; InvalidLabel in line { 82 }
+	For mutant 22 activity label at line 82 has been change from "" to "56bb2510b76f42008fec2e3999dac6c1"
+Mutant 23: .\mutants\\org.wikipedia-mutant23\src\\AndroidManifest.xml; InvalidLabel in line { 84 }
+	For mutant 23 activity label at line 84 has been change from "" to "71c9d5b26cdf4e769e465677df0a00fc"
+Mutant 24: .\mutants\\org.wikipedia-mutant24\src\\AndroidManifest.xml; WrongMainActivity in line { 18 }
+	For mutant 24 activity "org.wikipedia.main.MainActivity" at line 18 has been replaced as main activity by "org.wikipedia.gallery.GalleryActivity" at line 48
+Mutant 25: .\mutants\\org.wikipedia-mutant25\src\\AndroidManifest.xml; WrongMainActivity in line { 25 }
+	For mutant 25 activity "org.wikipedia.main.MainActivity" at line 25 has been replaced as main activity by "org.wikipedia.talk.TalkTopicsActivity" at line 86

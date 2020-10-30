@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/imageTagsSearchContainer" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="48.0dip" android:paddingStart="16.0dip" android:paddingEnd="16.0dip">
+        <org.wikipedia.views.PlainPasteEditText android:textSize="14.0sp" android:textColor="?material_theme_primary_color" android:id="@id/imageTagsSearchText" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" android:hint="@string/suggested_edits_image_tags_search" android:maxLines="1" android:imeOptions="flagNoExtractUi">
+            <requestFocus />
+        </org.wikipedia.views.PlainPasteEditText>
+        <ImageView android:layout_gravity="end|center" android:layout_width="24.0dip" android:layout_height="24.0dip" android:contentDescription="@null" app:srcCompat="@drawable/ic_search_white_24dp" app:tint="?material_theme_de_emphasised_color" />
+    </FrameLayout>
+    <View android:id="@id/imageTagsDivider" android:background="?material_theme_border_color" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <TextView android:textStyle="italic" android:textColor="?material_theme_de_emphasised_color" android:gravity="center" android:id="@id/noResultsText" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="48.0dip" android:text="@string/search_no_results_found" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/imageTagsRecycler" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

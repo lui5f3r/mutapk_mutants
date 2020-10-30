@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:id="@id/articleContainer" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toTopOf="@id/licenseContainer" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <org.wikipedia.views.FaceAndColorDetectImageView android:id="@id/articleImage" android:layout_width="fill_parent" android:layout_height="192.0dip" />
+            <View android:background="?material_theme_border_color" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="16.0dip" android:paddingEnd="16.0dip">
+                <TextView android:textSize="24.0sp" android:textColor="?primary_text_color" android:ellipsize="end" android:id="@id/articleTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:maxLines="2" android:lineSpacingExtra="4.0sp" android:fontFamily="serif" />
+                <org.wikipedia.views.GoneIfEmptyTextView android:textSize="14.0sp" android:textColor="?secondary_text_color" android:id="@id/articleSubtitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:lineSpacingExtra="6.0sp" />
+                <View android:background="?material_theme_border_color" android:layout_width="@dimen/divider_width_for_article" android:layout_height="1.0dip" android:layout_marginTop="19.0dip" />
+                <TextView android:textSize="16.0sp" android:textColor="?primary_text_color" android:ellipsize="end" android:id="@id/articleExtract" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="15.0dip" android:layout_marginBottom="24.0dip" android:layout_weight="1.0" android:lineSpacingExtra="10.0sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <FrameLayout android:id="@id/galleryContainer" android:background="@android:color/black" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toTopOf="@id/licenseContainer" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <ImageView android:id="@id/galleryImage" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitCenter" />
+        <org.wikipedia.views.AppTextView android:scrollbarStyle="insideInset" android:textSize="16.0sp" android:textColor="@color/base90" android:textColorLink="@color/base90" android:layout_gravity="bottom" android:id="@id/galleryDescriptionText" android:background="@drawable/gallery_caption_gradient_background" android:paddingTop="36.0dip" android:paddingBottom="16.0dip" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lineSpacingMultiplier="1.5" android:fadeScrollbars="false" android:textIsSelectable="true" android:fontFamily="sans-serif" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" />
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/licenseContainer" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent">
+        <View android:id="@id/indicatorDivider" android:background="?material_theme_border_color" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+        <org.wikipedia.descriptions.DescriptionEditLicenseView android:id="@id/licenseView" android:paddingTop="16.0dip" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="8.0dip" android:paddingEnd="8.0dip" />
+    </LinearLayout>
+</merge>

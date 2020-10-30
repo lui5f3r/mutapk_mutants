@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:animateLayoutChanges="true">
+        <org.wikipedia.views.FaceAndColorDetectImageView android:id="@id/view_page_header_image" android:background="?android:colorBackground" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@null" android:transitionName="@string/transition_page_gallery" />
+        <View android:id="@id/view_page_header_image_gradient_top" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <View android:id="@id/view_page_header_image_gradient_bottom" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="bottom" android:id="@id/call_to_action_container" android:background="?selectableItemBackground" android:focusable="true" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="48.0dip" android:paddingStart="12.0dip">
+            <ImageView android:layout_width="@dimen/app_shortcut_icon_size" android:layout_height="@dimen/app_shortcut_icon_size" android:contentDescription="@null" app:srcCompat="@drawable/ic_add_gray_white_24dp" />
+            <TextView android:textColor="@color/base100" android:id="@id/call_to_action_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAllCaps="true" android:fontFamily="sans-serif-medium" android:layout_marginStart="8.0dip" android:letterSpacing="0.1" />
+        </LinearLayout>
+    </FrameLayout>
+</merge>

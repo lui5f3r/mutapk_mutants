@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="diff_years">
+        <item quantity="other">לפני %d שנים</item>
+        <item quantity="one">שנה שעברה</item>
+        <item quantity="two">לפני שנתיים</item>
+        <item quantity="many">לפני %d שנים</item>
+    </plurals>
+    <plurals name="notification_archive_message">
+        <item quantity="other">%d הודעות נשלחו לארכיון</item>
+        <item quantity="one">ההודעה נשלחה לארכיון</item>
+        <item quantity="two">%d הודעות נשלחו לארכיון</item>
+        <item quantity="many">%d הודעות נשלחו לארכיון</item>
+    </plurals>
+    <plurals name="notification_channel_name">
+        <item quantity="other">מתבצעת הורדה של ערכים</item>
+        <item quantity="one">מתבצעת הורדה של ערך</item>
+        <item quantity="two">מתבצעת הורדה של ערכים</item>
+        <item quantity="many">מתבצעת הורדה של ערכים</item>
+    </plurals>
+    <plurals name="notification_syncing_description">
+        <item quantity="other">נשארו %1$d ערכים</item>
+        <item quantity="one">נשאר ערך אחד</item>
+        <item quantity="two">נשארו %1$d ערכים</item>
+        <item quantity="many">נשארו %1$d ערכים</item>
+    </plurals>
+    <plurals name="notification_syncing_reading_list_channel_name">
+        <item quantity="other">סנכרון רשימות קריאה</item>
+        <item quantity="one">סנכרון רשימת קריאה</item>
+        <item quantity="two">סנכרון רשימות קריאה</item>
+        <item quantity="many">סנכרון רשימות קריאה</item>
+    </plurals>
+    <plurals name="notification_syncing_reading_list_description">
+        <item quantity="other">נשארו %1$d רשימות</item>
+        <item quantity="one">נשארה רשימה אחת</item>
+        <item quantity="two">נשארו %1$d רשימות</item>
+        <item quantity="many">נשארו %1$d רשימות</item>
+    </plurals>
+    <plurals name="notification_syncing_reading_list_title">
+        <item quantity="other">מתבצע סנכרון של %1$d רשימות…</item>
+        <item quantity="one">מתבצע סנכרון של רשימה אחת…</item>
+        <item quantity="two">מתבצע סנכרון של %1$d רשימות…</item>
+        <item quantity="many">מתבצע סנכרון של %1$d רשימות…</item>
+    </plurals>
+    <plurals name="notification_syncing_title">
+        <item quantity="other">מתבצעת הורדה של %1$d ערכים…</item>
+        <item quantity="one">מתבצעת הורדה של ערך אחד…</item>
+        <item quantity="two">מתבצעת הורדה של %1$d ערכים…</item>
+        <item quantity="many">מתבצעת הורדה של %1$d ערכים…</item>
+    </plurals>
+    <plurals name="reading_list_article_not_offline_message">
+        <item quantity="other">הערכים האלה לא יהיו עוד זמינים ללא חיבור לרשת.</item>
+        <item quantity="one">הערך הזה לא יהיה עוד זמין ללא חיבור לרשת.</item>
+        <item quantity="two">הערכים האלה לא יהיו עוד זמינים ללא חיבור לרשת.</item>
+        <item quantity="many">הערכים האלה לא יהיו עוד זמינים ללא חיבור לרשת.</item>
+    </plurals>
+    <plurals name="reading_list_article_offline_message">
+        <item quantity="other">הערכים האלה יהין זמינים ללא חיבור לרשת.</item>
+        <item quantity="one">הערך הזה יהיה זמין ללא חיבור לרשת.</item>
+        <item quantity="two">הערכים האלה יהיו זמינים ללא חיבור לרשת.</item>
+        <item quantity="many">הערכים האלה יהיו זמינים ללא חיבור לרשת.</item>
+    </plurals>
+    <plurals name="suggested_edits_added_contribution_label">
+        <item quantity="other">הוספת %d תווים</item>
+        <item quantity="one">הוספת תו אחד</item>
+    </plurals>
+    <plurals name="suggested_edits_contribution">
+        <item quantity="other">תרומות</item>
+        <item quantity="one">תרומה</item>
+        <item quantity="two">תרומות</item>
+        <item quantity="many">תרומות</item>
+    </plurals>
+    <plurals name="suggested_edits_contribution_count">
+        <item quantity="other">%d תרומות</item>
+        <item quantity="one">תרומה אחת</item>
+        <item quantity="two">%d תרומות</item>
+        <item quantity="many">%d תרומות</item>
+    </plurals>
+    <plurals name="suggested_edits_contribution_diff_count_text">
+        <item quantity="other">%1$s תווים</item>
+        <item quantity="one">תו אחד</item>
+    </plurals>
+    <plurals name="suggested_edits_edit_streak_detail_text">
+        <item quantity="other">%d ימים</item>
+        <item quantity="one">יום אחד</item>
+        <item quantity="two">יומיים</item>
+        <item quantity="many">%d ימים</item>
+    </plurals>
+    <plurals name="suggested_edits_image_tag_contribution_label">
+        <item quantity="other">הוספת %d תגים</item>
+        <item quantity="one">הוספת תג אחד</item>
+    </plurals>
+    <plurals name="suggested_edits_removed_contribution_label">
+        <item quantity="other">הסרת %d תווים</item>
+        <item quantity="one">הסרת תו אחד</item>
+    </plurals>
+    <plurals name="suggested_edits_tags_diff_count_text">
+        <item quantity="other">%1$s תגים</item>
+        <item quantity="one">תג אחד</item>
+    </plurals>
+    <plurals name="view_continue_reading_card_subtitle">
+        <item quantity="other">לפני %d ימים</item>
+        <item quantity="one">אתמול</item>
+        <item quantity="two">שלשום</item>
+        <item quantity="many">לפני %d ימים</item>
+    </plurals>
+    <plurals name="wikipedia_languages_remove_dialog_title">
+        <item quantity="other">להסיר את השפות שנבחרו?</item>
+        <item quantity="one">להסיר את השפה שנבחרה?</item>
+        <item quantity="two">להסיר את השפות שנבחרו?</item>
+        <item quantity="many">להסיר את השפות שנבחרו?</item>
+    </plurals>
+</resources>

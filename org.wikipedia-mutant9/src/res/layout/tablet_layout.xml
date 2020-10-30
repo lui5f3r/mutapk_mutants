@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.Toolbar android:theme="@style/ThemeOverlay.AppCompat.Dark" android:layout_gravity="start|bottom|center" android:id="@id/primary_toolbar" android:background="@android:color/transparent" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="@dimen/tablet_tab_container_height" app:popupTheme="?tabSwitcherToolbarPopupTheme" />
+        <androidx.appcompat.widget.Toolbar android:theme="@style/ThemeOverlay.AppCompat.Dark" android:layout_gravity="end|bottom|center" android:id="@id/secondary_toolbar" android:background="@android:color/transparent" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="@dimen/tablet_tab_container_height" app:popupTheme="?tabSwitcherToolbarPopupTheme" />
+        <View android:layout_gravity="bottom" android:id="@id/border_view" android:background="@color/tablet_tab_border_color" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <FrameLayout android:id="@id/tab_container" android:layout_width="fill_parent" android:layout_height="@dimen/tablet_tab_container_height" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/content_container" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+</LinearLayout>

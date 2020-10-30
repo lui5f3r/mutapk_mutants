@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:background="?chart_shade5" android:layout_width="wrap_content" android:layout_height="0.5dip" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/languagesList" android:layout_width="fill_parent" android:layout_height="100.0dip" android:layout_marginTop="8.0dip" android:layout_marginBottom="@dimen/view_list_card_margin_vertical" android:requiresFadingEdge="vertical" android:layout_marginStart="@dimen/activity_horizontal_margin" android:layout_marginEnd="@dimen/activity_horizontal_margin" />
+    <View android:background="?chart_shade5" android:layout_width="wrap_content" android:layout_height="0.5dip" />
+    <LinearLayout android:gravity="center_vertical" android:id="@id/addLangContainer" android:background="?selectableItemBackground" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="36.0dip" android:layout_marginStart="8.0dip">
+        <ImageView android:layout_width="24.0dip" android:layout_height="24.0dip" android:contentDescription="@null" app:srcCompat="@drawable/ic_add_gray_white_24dp" app:tint="?colorAccent" />
+        <TextView android:textSize="14.0sp" android:textColor="?colorAccent" android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/onboarding_multilingual_add_language_text" android:textAllCaps="true" android:fontFamily="sans-serif-medium" android:layout_marginStart="12.0dip" />
+    </LinearLayout>
+</LinearLayout>

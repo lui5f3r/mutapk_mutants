@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="diff_years">
+        <item quantity="other">%d سال قبل</item>
+        <item quantity="one">پچھلے سال</item>
+    </plurals>
+    <plurals name="multi_items_selected">
+        <item quantity="other">%d منتخب</item>
+        <item quantity="one">%d منتخب</item>
+    </plurals>
+    <plurals name="notification_channel_name">
+        <item quantity="other">مضامین ڈاؤنلوڈ ہو رہے ہیں</item>
+        <item quantity="one">مضمون ڈاؤنلوڈ ہو رہا ہے</item>
+    </plurals>
+    <plurals name="notification_syncing_description">
+        <item quantity="other">%1$d مضامین رہ گئے ہیں</item>
+        <item quantity="one">%1$d مضمون رہ گیا ہے</item>
+    </plurals>
+    <plurals name="notification_syncing_title">
+        <item quantity="other">%1$d مضامین ڈاؤنلوڈ ہو رہے ہیں…</item>
+        <item quantity="one">%1$d مضمون ڈاؤنلوڈ ہو رہا ہے…</item>
+    </plurals>
+    <plurals name="reading_list_article_not_offline_message">
+        <item quantity="other">اب یہ مضامین آف لائن دستیاب نہیں ہونگے۔</item>
+        <item quantity="one">اب یہ مضمون آف لائن دستیاب نہیں ہوگا۔</item>
+    </plurals>
+    <plurals name="reading_list_article_offline_message">
+        <item quantity="other">یہ مضامین آف لائن دستیاب ہونگے۔</item>
+        <item quantity="one">یہ مضمون آف لائن دستیاب ہوگا۔</item>
+    </plurals>
+    <plurals name="suggested_edits_contribution">
+        <item quantity="other">شراکتیں</item>
+        <item quantity="one">شراکت</item>
+    </plurals>
+    <plurals name="suggested_edits_contribution_count">
+        <item quantity="other">%d شراکتیں</item>
+        <item quantity="one">1 شراکت</item>
+    </plurals>
+    <plurals name="suggested_edits_edit_streak_detail_text">
+        <item quantity="other">%d دن</item>
+        <item quantity="one">%d دن</item>
+    </plurals>
+    <plurals name="view_continue_reading_card_subtitle">
+        <item quantity="other">%d دن قبل</item>
+        <item quantity="one">گزشتہ کل</item>
+    </plurals>
+    <plurals name="wikipedia_languages_remove_dialog_title">
+        <item quantity="other">منتخب زبانیں ہٹائیں</item>
+        <item quantity="one">منتخب زبان ہٹائیں؟</item>
+    </plurals>
+</resources>

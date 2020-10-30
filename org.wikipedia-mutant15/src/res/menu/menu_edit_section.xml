@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/ic_find_in_page_themed" android:id="@id/menu_find_in_editor" android:title="@string/menu_page_find_in_page" app:showAsAction="always" />
+    <item android:icon="@drawable/ic_zoom_in_themed_24dp" android:id="@id/menu_edit_zoom_in" android:title="@string/edit_zoom_in" app:showAsAction="always" />
+    <item android:icon="@drawable/ic_zoom_out_themed_24dp" android:id="@id/menu_edit_zoom_out" android:title="@string/edit_zoom_out" app:showAsAction="always" />
+    <item android:enabled="false" android:id="@id/menu_save_section" android:title="@string/menu_save_changes" app:showAsAction="always|withText" />
+</menu>

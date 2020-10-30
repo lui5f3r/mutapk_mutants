@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:paddingTop="16.0dip" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="16.0dip" android:paddingEnd="30.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/page_toc_item_text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:textAlignment="viewEnd" android:layout_marginStart="16.0dip" android:layout_marginEnd="32.0dip" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/page_toc_item_bullet" android:layout_width="8.0dip" android:layout_height="8.0dip" android:contentDescription="@null" app:srcCompat="@drawable/shape_circle" app:tint="@color/base50" />
+</LinearLayout>

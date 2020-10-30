@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="diff_years">
+        <item quantity="other">%d ឆ្នាំមុន</item>
+        <item quantity="one">ឆ្នាំមុន</item>
+    </plurals>
+    <plurals name="suggested_edits_added_contribution_label">
+        <item quantity="other">អ្នកបានបន្ថែមតួ %d</item>
+        <item quantity="one">អ្នកបានបន្ថែមតួ %d</item>
+    </plurals>
+    <plurals name="suggested_edits_contribution_diff_count_text">
+        <item quantity="other">តួ %1$s</item>
+        <item quantity="one">តួ %1$s</item>
+    </plurals>
+    <plurals name="suggested_edits_removed_contribution_label">
+        <item quantity="other">អ្នកបានដកចេញនូវតួ %d</item>
+        <item quantity="one">អ្នកបានដកចេញនូវតួ %d</item>
+    </plurals>
+    <plurals name="suggested_edits_tags_diff_count_text">
+        <item quantity="other">ស្លាក %1$s</item>
+        <item quantity="one">ស្លាក %1$s</item>
+    </plurals>
+    <plurals name="view_continue_reading_card_subtitle">
+        <item quantity="other">%d ថ្ងៃមុន</item>
+        <item quantity="one">ម្សិលមិញ</item>
+    </plurals>
+    <plurals name="wikipedia_languages_remove_dialog_title">
+        <item quantity="other">ដកភាសាដែលបានជ្រើសរើសឬ?</item>
+        <item quantity="one">ដកភាសាដែលបានជ្រើសរើសឬ?</item>
+    </plurals>
+</resources>

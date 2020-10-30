@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="diff_years">
+        <item quantity="other">Orain dela %d urte</item>
+        <item quantity="one">Iaz</item>
+    </plurals>
+    <plurals name="notification_channel_name">
+        <item quantity="other">Artikuluak jaisten</item>
+        <item quantity="one">Artikulua jaisten</item>
+    </plurals>
+    <plurals name="notification_syncing_description">
+        <item quantity="other">%1$d artikulu geratzen dira</item>
+        <item quantity="one">Artikulu %1$d geratzen da</item>
+    </plurals>
+    <plurals name="notification_syncing_reading_list_channel_name">
+        <item quantity="other">Irakurketa zerrendak sinkronizatzen</item>
+        <item quantity="one">Irakurketa zerrenda sinkronizatzen</item>
+    </plurals>
+    <plurals name="notification_syncing_reading_list_description">
+        <item quantity="other">%1$d zerrenda faltan...</item>
+        <item quantity="one">Zerrenda %1$d faltan…</item>
+    </plurals>
+    <plurals name="notification_syncing_reading_list_title">
+        <item quantity="other">%1$d zerrenda sinkronizatzen…</item>
+        <item quantity="one">Zerrenda %1$d sinkronizatzen…</item>
+    </plurals>
+    <plurals name="notification_syncing_title">
+        <item quantity="other">%1$d artikulu jaisten…</item>
+        <item quantity="one">Artikulu %1$d jaisten…</item>
+    </plurals>
+    <plurals name="reading_list_article_not_offline_message">
+        <item quantity="other">Artikulu hauek ez dira eskuragarri izango konexiorik gabe.</item>
+        <item quantity="one">Artikulu hau ez da eskuragarri izango konexiorik gabe.</item>
+    </plurals>
+    <plurals name="reading_list_article_offline_message">
+        <item quantity="other">Artikulu hauek ez dira eskuragarriak izango konexiorik gabe.</item>
+        <item quantity="one">Artikulu hau konexiorik gabe erabiltzeko eskuragarri dago.</item>
+    </plurals>
+    <plurals name="suggested_edits_contribution_count">
+        <item quantity="other">%d aldaketa</item>
+        <item quantity="one">aldaketa bat</item>
+    </plurals>
+    <plurals name="view_continue_reading_card_subtitle">
+        <item quantity="other">Orain dela %d egun</item>
+        <item quantity="one">Atzo</item>
+    </plurals>
+    <plurals name="wikipedia_languages_remove_dialog_title">
+        <item quantity="other">Aukeratutako hizkuntzak kendu?</item>
+        <item quantity="one">Aukeratutako hizkuntza kendu?</item>
+    </plurals>
+</resources>

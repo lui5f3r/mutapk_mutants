@@ -1,0 +1,106 @@
+.class final enum Lorg/wikipedia/feed/FeedContentType$9;
+.super Lorg/wikipedia/feed/FeedContentType;
+.source "FeedContentType.java"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lorg/wikipedia/feed/FeedContentType;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x4008
+    name = null
+.end annotation
+
+
+# direct methods
+.method constructor <init>(Ljava/lang/String;IIIIZ)V
+    .locals 8
+
+    const/4 v7, 0x0
+
+    move-object v0, p0
+
+    move-object v1, p1
+
+    move v2, p2
+
+    move v3, p3
+
+    move v4, p4
+
+    move v5, p5
+
+    move v6, p6
+
+    .line 91
+    invoke-direct/range {v0 .. v7}, Lorg/wikipedia/feed/FeedContentType;-><init>(Ljava/lang/String;IIIIZLorg/wikipedia/feed/FeedContentType$1;)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public newClient(Lorg/wikipedia/feed/aggregated/AggregatedFeedContentClient;I)Lorg/wikipedia/feed/dataclient/FeedClient;
+    .locals 2
+
+    .line 95
+    invoke-virtual {p0}, Lorg/wikipedia/feed/FeedContentType;->isEnabled()Z
+
+    move-result p1
+
+    if-eqz p1, :cond_0
+
+    invoke-static {}, Lorg/wikipedia/auth/AccountUtil;->isLoggedIn()Z
+
+    move-result p1
+
+    if-eqz p1, :cond_0
+
+    invoke-static {}, Lorg/wikipedia/WikipediaApp;->getInstance()Lorg/wikipedia/WikipediaApp;
+
+    move-result-object p1
+
+    invoke-virtual {p1}, Lorg/wikipedia/WikipediaApp;->isOnline()Z
+
+    move-result p1
+
+    if-eqz p1, :cond_0
+
+    .line 96
+    invoke-virtual {p0}, Lorg/wikipedia/feed/FeedContentType;->getUnlockedEditingPrivileges()Ljava/util/List;
+
+    move-result-object p1
+
+    .line 97
+    invoke-interface {p1}, Ljava/util/List;->size()I
+
+    move-result v0
+
+    if-lez v0, :cond_0
+
+    .line 98
+    new-instance v0, Lorg/wikipedia/feed/suggestededits/SuggestedEditsFeedClient;
+
+    invoke-interface {p1}, Ljava/util/List;->size()I
+
+    move-result v1
+
+    rem-int/2addr p2, v1
+
+    invoke-interface {p1, p2}, Ljava/util/List;->get(I)Ljava/lang/Object;
+
+    move-result-object p1
+
+    check-cast p1, Lorg/wikipedia/descriptions/DescriptionEditActivity$Action;
+
+    invoke-direct {v0, p1}, Lorg/wikipedia/feed/suggestededits/SuggestedEditsFeedClient;-><init>(Lorg/wikipedia/descriptions/DescriptionEditActivity$Action;)V
+
+    return-object v0
+
+    :cond_0
+    const/4 p1, 0x0
+
+    return-object p1
+.end method

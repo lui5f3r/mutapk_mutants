@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="diff_years">
+        <item quantity="other">Text indicating that the event occurred two or more years ago.\"%d\" is the number of years.</item>
+        <item quantity="one">Text indicating that the event occurred one year ago.</item>
+    </plurals>
+    <plurals name="format_reading_list_statistical_detail">
+        <item quantity="other">Detailed description shown for a reading list that contains multiple articles; The %1$d parameter is the number of pages saved to disk for offline reading, the %2$d parameter is the number of total pages in the list, and the %3$.2f parameter is the total number of megabytes saved to disk for this list.</item>
+        <item quantity="one">Detailed description shown for a reading list that contains one article; The %1$d parameter is the number pages saved to disk for offline reading (zero or one), and the %3$.2f parameter is the number of megabytes saved to disk for this list.</item>
+    </plurals>
+    <plurals name="format_reading_list_statistical_summary">
+        <item quantity="other">Summary shown for a reading list that contains multiple articles; The %1$d parameter is the number of pages in the list, and the %2$.2f parameter is the total number of megabytes saved to disk for offline page reading.</item>
+        <item quantity="one">Summary shown for a reading list that contains one article. The %2$.2f parameter is replaced with the cache size of the article.</item>
+    </plurals>
+    <plurals name="multi_items_selected">
+        <item quantity="other">Toolbar title shown when the user is selecting multiple items in a list. The \"%d\" symbol is replaced with the number of items currently selected.</item>
+        <item quantity="one">Toolbar title shown when the user is selecting multiple items in a list, and one item is currently selected.</item>
+    </plurals>
+    <plurals name="notification_archive_message">
+        <item quantity="other">Message shown when multiple notifications are archived. The %d is replaced with the number of notifications.</item>
+        <item quantity="one">Message shown when a single notification is archived.</item>
+    </plurals>
+    <plurals name="notification_channel_name">
+        <item quantity="other">Name of the notification channel that shows the app is downloading two or more articles</item>
+        <item quantity="one">Name of the notification channel that shows the app is downloading one article</item>
+    </plurals>
+    <plurals name="notification_syncing_description">
+        <item quantity="other">Text of notification shows the remaining articles. The \"%1$d\" symbol corresponds to the amount of remaining articles.</item>
+        <item quantity="one">Text of notification shows the remaining article. The \"%1$d\" symbol corresponds to the amount of remaining articles.</item>
+    </plurals>
+    <plurals name="notification_syncing_reading_list_channel_name">
+        <item quantity="other">Name of the notification channel of syncing two or more reading lists</item>
+        <item quantity="one">Name of the notification channel of syncing one reading list</item>
+    </plurals>
+    <plurals name="notification_syncing_reading_list_description">
+        <item quantity="other">Text of notification shows the remaining lists. The \"%1$d\" symbol corresponds to the amount of remaining lists.</item>
+        <item quantity="one">Text of notification shows the remaining list. The \"%1$d\" symbol corresponds to the amount of remaining lists.</item>
+    </plurals>
+    <plurals name="notification_syncing_reading_list_title">
+        <item quantity="other">Title for notification when the syncing two or more reading lists process begins. The \"%1$d\" symbol corresponds to the amount of lists.</item>
+        <item quantity="one">Title for notification when the syncing one reading list process begins. The \"%1$d\" symbol corresponds to the amount of lists.</item>
+    </plurals>
+    <plurals name="notification_syncing_title">
+        <item quantity="other">Title for notification when the downloading process of two or more article begins. The \"%1$d\" symbol corresponds to the amount of articles.</item>
+        <item quantity="one">Title for notification when the downloading process of one article begins. The \"%1$d\" symbol corresponds to the amount of articles.</item>
+    </plurals>
+    <plurals name="reading_list_article_not_offline_message">
+        <item quantity="other">Message shown when more than one reading list article is removed from offline availability.</item>
+        <item quantity="one">Message shown when a single reading list article is removed from offline availability.</item>
+    </plurals>
+    <plurals name="reading_list_article_offline_message">
+        <item quantity="other">Message shown when more than one reading list article is made available for offline use.</item>
+        <item quantity="one">Message shown when a single reading list article is made available for offline use.</item>
+    </plurals>
+    <plurals name="reading_list_articles_deleted">
+        <item quantity="other">Message shown when multiple articles are removed from a reading list. The \"%d\" symbol is replaced with the number of articles removed.</item>
+        <item quantity="one">Message shown when one article is removed from a reading list.</item>
+    </plurals>
+    <plurals name="search_results_count">
+        <item quantity="other">Text shown on the list that displays numbers of counts of the result from the search. The \"%d\" symbol is replaced with the amount of the counts.</item>
+        <item quantity="one">Text shown on the list that displays one count of the result from the search.</item>
+    </plurals>
+    <plurals name="suggested_edits_added_contribution_label">
+        <item quantity="other">"Text summarizing the user's contribution to the article or image. %d represents the number when many characters are added."</item>
+        <item quantity="one">"Text summarizing the user's contribution to the article or image. %d represents the number when only one character is added."</item>
+    </plurals>
+    <plurals name="suggested_edits_contribution">
+        <item quantity="other">Label text for indicating how many contributions a user has made. For many contributions.</item>
+        <item quantity="one">Label text for indicating how many contributions a user has made. For One contribution.</item>
+    </plurals>
+    <plurals name="suggested_edits_contribution_count">
+        <item quantity="other">Text suggesting that two or more in-app contributions were made. %d is the number of contribution.</item>
+        <item quantity="one">Text suggesting that one in-app contribution was made.</item>
+    </plurals>
+    <plurals name="suggested_edits_contribution_diff_count_text">
+        <item quantity="other">Label text indicating the number of characters added or removed by a user contribution. %1$s represents the number.</item>
+        <item quantity="one">Label text indicating the number of characters added or removed by a user contribution. %1$s represents the number.</item>
+    </plurals>
+    <plurals name="suggested_edits_contribution_seen_times">
+        <item quantity="other">Indicates how many times the contributions have been viewed in the past 30 days. The %s parameter is replaced by the number of views.</item>
+        <item quantity="one">Indicates that the contributions have been seen once in the past 30 days.</item>
+    </plurals>
+    <plurals name="suggested_edits_edit_streak_detail_text">
+        <item quantity="other">Label text to show the length of the edit streak in number of days. %d is for many days</item>
+        <item quantity="one">Label text to show the length of the edit streak in number of days. %d is for one dat.</item>
+    </plurals>
+    <plurals name="suggested_edits_image_tag_contribution_label">
+        <item quantity="other">"Text summarizing the user's image tag contribution. %d represents the number of tags contributed."</item>
+        <item quantity="one">"Text summarizing the user's image tag contribution. %d represents the number of tags contributed."</item>
+    </plurals>
+    <plurals name="suggested_edits_rewards_contributions">
+        <item quantity="other">Message shown about the number of contributions the user has made. The %d parameter represents the number of contrubutions.</item>
+        <item quantity="one">Message shown about the number of contributions the user has made.</item>
+    </plurals>
+    <plurals name="suggested_edits_rewards_edit_streaks">
+        <item quantity="other">Message shown about the length of edit streak the user has made. The %1$d parameter represents the length of edit streak and the %2$s parameter represents the user name.</item>
+        <item quantity="one">Message shown about the length of edit streak the user has made. The %2$s parameter represents the user name.</item>
+    </plurals>
+    <plurals name="suggested_edits_rewards_page_views">
+        <item quantity="other">Message shown about the pageviews the user has earned in a period of time. The %d represents the number of pageviews.</item>
+        <item quantity="one">Message shown about the pageviews the user has earned in a period of time. The %d represents the number of pageviews.</item>
+    </plurals>
+    <plurals name="view_continue_reading_card_subtitle">
+        <item quantity="other">Subtitle for a \"continue reading\" card two or more days old. The first word should have an initial uppercase letter if appropriate for the language. Example: [[phab:F4695814]]. Use the %d parameter to insert the number of days passed since the content (an article) was last seen.</item>
+        <item quantity="one">Subtitle for a day old \"continue reading\" card. The word should be in lowercase if appropriate for the language.</item>
+    </plurals>
+    <plurals name="wikipedia_languages_remove_dialog_title">
+        <item quantity="other">Title of the dialog that pop-ups after clicking on the delete icon in the action mode when two or more items have been selected.</item>
+        <item quantity="one">Title of the dialog that pop-ups after clicking on the delete icon in the action mode when only one item has been selected.</item>
+    </plurals>
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="diff_years">
+        <item quantity="other">%d வருடங்களுக்கு முன்</item>
+        <item quantity="one">கடந்த வருடம்</item>
+    </plurals>
+    <plurals name="notification_channel_name">
+        <item quantity="other">கட்டுரைகள் தரவிறக்கப்படுகின்றன</item>
+        <item quantity="one">கட்டுரை தரவிறக்கப்படுகிறது</item>
+    </plurals>
+    <plurals name="notification_syncing_description">
+        <item quantity="other">%1$d கட்டுரைகள் மீதமுள்ளன</item>
+        <item quantity="one">%1$d கட்டுரை மீதமுள்ளது</item>
+    </plurals>
+    <plurals name="notification_syncing_reading_list_description">
+        <item quantity="other">%1$d பட்டியல்கள் மீதமுள்ளன</item>
+        <item quantity="one">%1$d பட்டியல் மீதமுள்ளது</item>
+    </plurals>
+    <plurals name="notification_syncing_title">
+        <item quantity="other">%1$d கட்டுரைகள் தரவிறக்கப்படுகின்றன</item>
+        <item quantity="one">%1$d கட்டுரை தரவிறக்கப்படுகிறது</item>
+    </plurals>
+    <plurals name="reading_list_article_not_offline_message">
+        <item quantity="other">இந்த கட்டுரைகள் இனி அணை நிலையில் இருக்காது</item>
+        <item quantity="one">இந்த கட்டுரை இனி அணை நிலையில் இருக்காது.</item>
+    </plurals>
+    <plurals name="view_continue_reading_card_subtitle">
+        <item quantity="other">%d நாட்களுக்கு முன்பு</item>
+        <item quantity="one">நேற்று</item>
+    </plurals>
+</resources>

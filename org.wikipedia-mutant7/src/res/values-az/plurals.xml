@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="suggested_edits_added_contribution_label">
+        <item quantity="other">%d simvollarını əlavə etdiniz</item>
+        <item quantity="one">%d simvolunu əlavə etdiniz</item>
+    </plurals>
+    <plurals name="suggested_edits_contribution_diff_count_text">
+        <item quantity="other">%1$s simvollar</item>
+        <item quantity="one">%1$s simvol</item>
+    </plurals>
+    <plurals name="suggested_edits_removed_contribution_label">
+        <item quantity="other">%d simvollerini sildiniz</item>
+        <item quantity="one">%d simvolunu sildiniz</item>
+    </plurals>
+    <plurals name="suggested_edits_tags_diff_count_text">
+        <item quantity="other">%1$s etiketlər</item>
+        <item quantity="one">%1$s etiket</item>
+    </plurals>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="view_continue_reading_card_subtitle">
+        <item quantity="other">berî %d rojan</item>
+        <item quantity="one">doh</item>
+    </plurals>
+    <plurals name="wikipedia_languages_remove_dialog_title">
+        <item quantity="other">Bila zimanên bijartî jê werin rakirin?</item>
+        <item quantity="one">Bila zimanê bijartî jê were rakirin?</item>
+    </plurals>
+</resources>

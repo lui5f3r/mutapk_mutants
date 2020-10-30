@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="suggested_edits_contribution">
+        <item quantity="other">Ներդրումներ</item>
+        <item quantity="one">Ներդրում</item>
+    </plurals>
+    <plurals name="view_continue_reading_card_subtitle">
+        <item quantity="other">%d օր արաջ</item>
+        <item quantity="one">երեկ</item>
+    </plurals>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/licenseIcon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:contentDescription="@string/cc_logo" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip" app:srcCompat="@drawable/ic_license_cc" app:tint="@color/base30" />
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="@color/base30" android:linksClickable="true" android:id="@id/licenseText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lineSpacingMultiplier="1.2" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip" />
+</merge>

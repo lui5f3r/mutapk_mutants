@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.FixedDrawerLayout android:layout_gravity="end" android:id="@id/navigation_drawer" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <org.wikipedia.views.FrameLayoutNavMenuTriggerer android:id="@id/activity_page_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.fragment.app.FragmentContainerView android:name="org.wikipedia.page.PageFragment" android:id="@id/page_fragment" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <FrameLayout android:id="@id/page_toolbar_container" android:background="?paper_color" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="4.0dip">
+            <androidx.appcompat.widget.Toolbar android:id="@id/page_toolbar" android:layout_width="fill_parent" android:layout_height="?actionBarSize">
+                <LinearLayout android:gravity="end|center" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <org.wikipedia.views.TabCountsView android:id="@id/page_toolbar_button_tabs" android:layout_width="48.0dip" android:layout_height="fill_parent" android:contentDescription="@string/menu_page_show_tabs" />
+                    <androidx.appcompat.widget.AppCompatImageView android:id="@id/page_toolbar_button_show_overflow_menu" android:background="?selectableItemBackgroundBorderless" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/menu_feed_overflow_label" android:paddingStart="12.0dip" android:paddingEnd="12.0dip" app:srcCompat="@drawable/ic_more_vert_themed_24dp" app:tint="?toolbar_icon_color" />
+                </LinearLayout>
+            </androidx.appcompat.widget.Toolbar>
+            <ProgressBar android:layout_gravity="top" android:id="@id/page_progress_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-7.0dip" android:indeterminate="true" style="@style/Widget.AppCompat.ProgressBar.Horizontal" />
+        </FrameLayout>
+    </org.wikipedia.views.FrameLayoutNavMenuTriggerer>
+    <FrameLayout android:layout_gravity="end" android:id="@id/toc_container" android:background="?android:colorBackground" android:layout_width="300.0dip" android:layout_height="fill_parent">
+        <org.wikipedia.views.SwipeableListView android:id="@id/toc_list" android:paddingTop="64.0dip" android:paddingBottom="64.0dip" android:scrollbars="none" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="?android:selectableItemBackground" />
+        <ImageView android:layout_gravity="end" android:layout_width="37.0dip" android:layout_height="fill_parent" android:layout_marginTop="-4.0dip" android:layout_marginBottom="-4.0dip" android:src="@drawable/toc_dotted_line" android:contentDescription="@null" android:layerType="software" android:layout_marginEnd="-2.0dip" />
+        <org.wikipedia.views.PageScrollerView android:layout_gravity="end" android:id="@id/page_scroller_button" android:background="@drawable/shape_circle" android:focusable="true" android:clickable="true" android:layout_width="48.0dip" android:layout_height="48.0dip" android:scaleType="center" android:elevation="8.0dip" app:backgroundTint="?toc_scroller_button_color" app:srcCompat="@drawable/ic_unfold_more_black_24dp" app:tint="?colorAccent" />
+    </FrameLayout>
+</androidx.drawerlayout.widget.FixedDrawerLayout>

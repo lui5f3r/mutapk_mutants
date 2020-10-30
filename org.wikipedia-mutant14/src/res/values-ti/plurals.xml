@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="diff_years">
+        <item quantity="other">ካብ %d ዓመታት ቅድሚ</item>
+        <item quantity="one">ዝሓለፈ ዓመት</item>
+    </plurals>
+    <plurals name="format_reading_list_statistical_summary">
+        <item quantity="other">%1$d ጽሑፋት፣ %2$.2f መ.ባ</item>
+        <item quantity="one">1 ጽሑፍ፣ %2$.2f መ.ባ</item>
+    </plurals>
+    <plurals name="multi_items_selected">
+        <item quantity="other">%d ዝተመርጹ</item>
+        <item quantity="one">%d ዝተመረጸ</item>
+    </plurals>
+    <plurals name="notification_channel_name">
+        <item quantity="other">ጽሑፋት ይውርድ ኣሎ</item>
+        <item quantity="one">ጽሑፍ ይውርድ ኣሎ</item>
+    </plurals>
+    <plurals name="notification_syncing_title">
+        <item quantity="other">%1$d ጽሑፋት ይውርድ ኣሎ...</item>
+        <item quantity="one">%1$d ጽሑፍ ይውርድ ኣሎ...</item>
+    </plurals>
+    <plurals name="suggested_edits_contribution">
+        <item quantity="other">ኣበርክቶታት</item>
+        <item quantity="one">ኣበርክቶ</item>
+    </plurals>
+    <plurals name="suggested_edits_contribution_count">
+        <item quantity="other">%d ኣበርክቶታት</item>
+        <item quantity="one">1 ኣበርክቶ</item>
+    </plurals>
+    <plurals name="suggested_edits_contribution_diff_count_text">
+        <item quantity="other">%1$s ፊደላት</item>
+        <item quantity="one">%1$s ፊደል</item>
+    </plurals>
+    <plurals name="suggested_edits_edit_streak_detail_text">
+        <item quantity="other">%d መዓላታት</item>
+        <item quantity="one">%d መዓልቲ</item>
+    </plurals>
+    <plurals name="view_continue_reading_card_subtitle">
+        <item quantity="other">ካብ %d መዓላታት ቅድሚ</item>
+        <item quantity="one">ትማሊ</item>
+    </plurals>
+</resources>

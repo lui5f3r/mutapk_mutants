@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="?primary_text_color" android:id="@id/titleText" android:paddingTop="6.0dip" android:paddingBottom="6.0dip" android:layout_width="100.0dip" android:layout_height="wrap_content" android:lineSpacingExtra="8.0sp" android:textAllCaps="true" android:fontFamily="sans-serif" android:textAlignment="textEnd" android:letterSpacing="0.04" />
+    <org.wikipedia.views.AppTextView android:textSize="16.0sp" android:textStyle="normal" android:textColor="?primary_text_color" android:id="@id/detailText" android:paddingTop="6.0dip" android:paddingBottom="6.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:lineSpacingExtra="8.0sp" android:fontFamily="sans-serif" android:layout_marginStart="12.0dip" />
+</merge>

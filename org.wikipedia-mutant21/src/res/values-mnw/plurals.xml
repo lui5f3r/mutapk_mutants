@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="diff_years">
+        <item quantity="other">%d သၞာံ မတုဲကၠုင်</item>
+        <item quantity="one">နူသၞာံမတုဲကၠုင်</item>
+    </plurals>
+    <plurals name="format_reading_list_statistical_detail">
+        <item quantity="other">%1$d %2$d လိက်ပရေင်ဂမၠိုင် ဗှ်ကေတ်ဂွံ မ္ၚးလာင်, %3$.2f MB</item>
+        <item quantity="one">%1$d ဂှ် လိက်ပရေင် ၁ ဗှ်ကေတ်ဂွံ မ္ၚးလာင်, %3$.2f MB</item>
+    </plurals>
+    <plurals name="format_reading_list_statistical_summary">
+        <item quantity="other">%1$d လိက်ပရေင်ဂမၠိုင်, %2$.2f MB</item>
+        <item quantity="one">၁ လိက်ပရေင်, %2$.2f MB</item>
+    </plurals>
+    <plurals name="multi_items_selected">
+        <item quantity="other">%d selected</item>
+        <item quantity="one">%d selected</item>
+    </plurals>
+    <plurals name="notification_archive_message">
+        <item quantity="other">%d notifications archived</item>
+        <item quantity="one">Notification archived</item>
+    </plurals>
+    <plurals name="notification_channel_name">
+        <item quantity="other">Downloading articles</item>
+        <item quantity="one">တံင်လုပ် လိက်ပရေင်</item>
+    </plurals>
+    <plurals name="notification_syncing_description">
+        <item quantity="other">%1$d articles left</item>
+        <item quantity="one">%1$d article left</item>
+    </plurals>
+    <plurals name="notification_syncing_reading_list_channel_name">
+        <item quantity="other">Syncing Reading Lists</item>
+        <item quantity="one">ကချဳဓရာင် စရင် လိက်ဗွဟ်</item>
+    </plurals>
+    <plurals name="notification_syncing_reading_list_description">
+        <item quantity="other">%1$d lists left</item>
+        <item quantity="one">%1$d list left</item>
+    </plurals>
+    <plurals name="notification_syncing_reading_list_title">
+        <item quantity="other">Syncing %1$d lists…</item>
+        <item quantity="one">ကချဳဓရာင် %1$d list…</item>
+    </plurals>
+    <plurals name="notification_syncing_title">
+        <item quantity="other">တံင်လုပ်ဒၟံင် %1$d articles…</item>
+        <item quantity="one">တံင်လုပ်ဒၟံင် %1$d article…</item>
+    </plurals>
+    <plurals name="reading_list_article_not_offline_message">
+        <item quantity="other">These articles will no longer be available offline.</item>
+        <item quantity="one">လိက်ပရေင်ဏအ် ဗှ် မ္ၚးလာင် ဟွံဂွံရ</item>
+    </plurals>
+    <plurals name="reading_list_article_offline_message">
+        <item quantity="other">These articles will now be available offline.</item>
+        <item quantity="one">လိက်ပရေင်ဏအ် လၟုဟ် ဗှ် မ္ၚးလာင်ဂွံရ၊၊</item>
+    </plurals>
+    <plurals name="reading_list_articles_deleted">
+        <item quantity="other">လိက်ပရေင် %d ပ္တိတ် နူ စရင်</item>
+        <item quantity="one">လိက်ပရေင် %d ပ္တိတ် နူကဵု စရင်</item>
+    </plurals>
+    <plurals name="suggested_edits_added_contribution_label">
+        <item quantity="other">မၞး စုတ်လဝ် ဗီုပြင်သဏ္ဌာန်ဂမၠိုင် %d</item>
+        <item quantity="one">မၞး စုတ်လဝ် ဗီုပြင်သဏ္ဌာန် %d</item>
+    </plurals>
+    <plurals name="suggested_edits_contribution">
+        <item quantity="other">အရာမကၠောန်ဗဒှ်ဂမၠိုင်</item>
+        <item quantity="one">အရာမကၠောန်ဗဒှ်</item>
+    </plurals>
+    <plurals name="suggested_edits_contribution_count">
+        <item quantity="other">%d အရာမကၠောန်ဗဒှ်ဂမၠိုင်</item>
+        <item quantity="one">1 အရာမကၠောန်ဗဒှ်</item>
+    </plurals>
+    <plurals name="suggested_edits_contribution_diff_count_text">
+        <item quantity="other">%1$s ဗီုပြင်သဏ္ဌာန်ဂမၠိုင်</item>
+        <item quantity="one">%1$s ဗီုပြင်သဏ္ဌာန်</item>
+    </plurals>
+    <plurals name="suggested_edits_contribution_seen_times">
+        <item quantity="other">ဗဵုလဝ် %s အလန် ပ္ဍဲကဵု အခိင် မတုဲကၠုင် ၃၀ တ္ၚဲ</item>
+        <item quantity="one">ဗဵုလဝ် မွဲအလန် ပ္ဍဲအခိင် မတုဲကၠုင် ၃၀ တ္ၚဲ</item>
+    </plurals>
+    <plurals name="suggested_edits_edit_streak_detail_text">
+        <item quantity="other">%d တ္ၚဲ</item>
+        <item quantity="one">%d တ္ၚဲ</item>
+    </plurals>
+    <plurals name="suggested_edits_image_tag_contribution_label">
+        <item quantity="other">မၞးစုတ် %d ဒစင်</item>
+        <item quantity="one">မၞးစုတ် %d ဒစင်</item>
+    </plurals>
+    <plurals name="suggested_edits_removed_contribution_label">
+        <item quantity="other">မၞး ပ္တိတ်လဝ် ဗီုပြင်သဏ္ဌာန် %d</item>
+        <item quantity="one">မၞး ပ္တိတ်လဝ် ဗီုပြင်သဏ္ဌာန် %d</item>
+    </plurals>
+    <plurals name="suggested_edits_rewards_contributions">
+        <item quantity="other">မၞးကၠောန်ဂွံ %d အလန် သွက်ဝဳကဳပဳဒဳယာ မစကာလဝ် အရာပလေဝ်ဒါန် မအာတ်မိက်။ တင်ဂုန်ရ။</item>
+        <item quantity="one">မၞးလုပ်ကၠောန်လဝ် မွဲအလန် ပ္ဍဲဝဳကဳပဳဒဳယာ မစကာလဝ် အရာပလေဝ်ဒါန် မအာတ်မိက်။ တင်ဂုန်ရ။</item>
+    </plurals>
+    <plurals name="suggested_edits_rewards_edit_streaks">
+        <item quantity="other">မၞးပလေဝ်ဒါန်ဂွံလဝ် ဇၟာပ်တ္ၚဲ သီုဖအိုတ် %1$d တ္ၚဲ စဵုကဵုလၟုဟ်မ္ဂး။ ဆက်ကၠောန် လ္ပဒေါအ်ညိ %2$s!</item>
+        <item quantity="one">မၞးပလေဝ်ဒါန်လဝ် မွဲ ပ္ဍဲမွဲကၠိုဟ်တ္ၚဲ။ ဆက်ကၠောန် လ္ပဒေါအ်ညိ %2$s!</item>
+    </plurals>
+    <plurals name="suggested_edits_rewards_page_views">
+        <item quantity="other">ပလေဝ်ဒါန်မၞးဂှ် မၞိဟ် %d တၠ လုပ်ဗဵုလဝ် ပ္ဍဲပွိုင် ၃၀ တ္ၚဲဂှ်။ တင်ဂုန်ရ ဆက်ကၠောန်အာညိ။</item>
+        <item quantity="one">ပလေဝ်ဒါန်မၞးဂှ် ပ္ဍဲကဵု ၃၀ တ္ၚဲမတုဲကၠုင်ဂှ် မၞိဟ်လုပ်ဗဵုဂွံ မွဲ တၠ။ တင်ဂုန်ရ ဆက်ကၠောန်အာညိ။</item>
+    </plurals>
+    <plurals name="suggested_edits_tags_diff_count_text">
+        <item quantity="other">%1$s ဒစာမ်ဂမၠိုင်</item>
+        <item quantity="one">%1$s ဒစာမ်</item>
+    </plurals>
+    <plurals name="view_continue_reading_card_subtitle">
+        <item quantity="other">%d တ္ၚဲ မတုဲကၠုင်</item>
+        <item quantity="one">နူကဏေအ်</item>
+    </plurals>
+    <plurals name="wikipedia_languages_remove_dialog_title">
+        <item quantity="other">အရေဝ်ဘာသာ မရုဲစှ်လဝ်ဂှ် ပတိတ်ထောအ်ဟာ？</item>
+        <item quantity="one">အရေဝ်ဘာသာ မရုဲစှ်လဝ်ဂှ် ပတိတ်ထောအ်ဟာ？</item>
+    </plurals>
+</resources>

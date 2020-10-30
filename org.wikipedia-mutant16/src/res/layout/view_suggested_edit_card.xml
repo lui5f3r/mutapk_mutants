@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/cardItemContainer" android:background="?selectableItemBackground" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <org.wikipedia.feed.view.CardHeaderView android:id="@id/headerView" android:layout_width="fill_parent" android:layout_height="48.0dip" />
+        <org.wikipedia.views.FaceAndColorDetectImageView android:id="@id/viewArticleImage" android:layout_width="fill_parent" android:layout_height="201.0dip" />
+        <LinearLayout android:orientation="vertical" android:id="@id/viewArticleContainer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="16.0dip" android:paddingEnd="16.0dip">
+            <TextView android:textSize="24.0sp" android:textColor="?primary_text_color" android:ellipsize="end" android:id="@id/viewArticleTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:maxLines="2" android:lineSpacingExtra="4.0sp" android:fontFamily="serif" />
+            <org.wikipedia.views.GoneIfEmptyTextView android:textSize="14.0sp" android:textColor="?secondary_text_color" android:ellipsize="end" android:id="@id/viewArticleSubtitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:maxLines="3" android:lineSpacingExtra="6.0sp" android:layout_marginEnd="5.0dip" />
+            <View android:id="@id/divider" android:background="?material_theme_border_color" android:layout_width="@dimen/divider_width_for_article" android:layout_height="1.0dip" android:layout_marginTop="12.0dip" />
+            <TextView android:textSize="14.0sp" android:textColor="?primary_text_color" android:ellipsize="end" android:id="@id/viewArticleExtract" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:minLines="3" android:lineSpacingExtra="10.0sp" />
+            <LinearLayout android:gravity="center_vertical" android:id="@id/viewAddDescriptionButton" android:layout_width="fill_parent" android:layout_height="@dimen/view_card_footer_height">
+                <ImageView android:layout_width="@dimen/app_shortcut_icon_size" android:layout_height="@dimen/app_shortcut_icon_size" android:contentDescription="@null" app:srcCompat="@drawable/ic_add_gray_white_24dp" app:tint="?colorAccent" />
+                <TextView android:textColor="?colorAccent" android:id="@id/callToActionText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAllCaps="true" android:fontFamily="sans-serif-medium" android:layout_marginStart="8.0dip" android:letterSpacing="0.04" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</merge>

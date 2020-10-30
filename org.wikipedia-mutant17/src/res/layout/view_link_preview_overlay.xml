@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="bottom" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:background="?paper_color" android:layout_width="fill_parent" android:layout_height="fill_parent" android:alpha="0.85" />
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="48.0dip">
+        <Button android:textColor="@color/base30" android:layout_gravity="center_vertical" android:id="@id/link_preview_tertiary_button" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/button_get_directions" android:layout_weight="1.0" android:paddingStart="8.0dip" android:paddingEnd="8.0dip" style="@style/TransparentButton" />
+        <Button android:textColor="?colorAccent" android:layout_gravity="center_vertical" android:id="@id/link_preview_secondary_button" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/menu_long_press_open_in_new_tab" android:layout_weight="1.0" android:fontFamily="sans-serif-medium" android:paddingStart="8.0dip" android:paddingEnd="8.0dip" style="@style/TransparentButton" />
+        <Button android:textColor="?colorAccent" android:layout_gravity="center_vertical" android:id="@id/link_preview_primary_button" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/button_continue_to_article" android:layout_weight="1.0" android:fontFamily="sans-serif-medium" android:paddingStart="8.0dip" android:paddingEnd="8.0dip" style="@style/TransparentButton" />
+    </LinearLayout>
+</FrameLayout>

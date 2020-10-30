@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/containerClickArea" android:background="?selectableItemBackground" android:paddingTop="16.0dip" android:paddingBottom="8.0dip" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="16.0dip" android:paddingEnd="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/imageView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" android:contentDescription="@null" />
+    <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="?material_theme_primary_color" android:id="@id/messageTitleView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip" android:lineSpacingExtra="8.0sp" />
+    <TextView android:textSize="16.0sp" android:textColor="?material_theme_secondary_color" android:id="@id/messageTextView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="6.0dip" android:lineSpacingExtra="8.0sp" />
+    <com.google.android.flexbox.FlexboxLayout android:layout_width="fill_parent" android:layout_height="wrap_content" app:flexWrap="wrap" app:justifyContent="flex_start">
+        <com.google.android.material.button.MaterialButton android:id="@id/positiveButton" android:layout_marginEnd="8.0dip" app:iconSize="20.0dip" app:iconTint="?colorAccent" style="@style/FlatButton.Small" />
+        <com.google.android.material.button.MaterialButton android:id="@id/negativeButton" android:visibility="gone" style="@style/FlatButton.Small.Transparent" />
+    </com.google.android.flexbox.FlexboxLayout>
+</LinearLayout>

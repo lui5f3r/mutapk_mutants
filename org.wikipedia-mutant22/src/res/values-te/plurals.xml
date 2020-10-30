@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="diff_years">
+        <item quantity="other">%d సంవత్సరాల క్రితం</item>
+        <item quantity="one">పోయిన సంవత్సరం</item>
+    </plurals>
+    <plurals name="suggested_edits_edit_streak_detail_text">
+        <item quantity="other">%d రోజులు</item>
+        <item quantity="one">%d రోజు</item>
+    </plurals>
+    <plurals name="view_continue_reading_card_subtitle">
+        <item quantity="other">%d రోజుల క్రితం</item>
+        <item quantity="one">నిన్న</item>
+    </plurals>
+</resources>

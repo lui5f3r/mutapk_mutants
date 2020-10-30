@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="suggested_edits_contribution_count">
+        <item quantity="other">%d төзәтмә</item>
+        <item quantity="one">бер генә төзәтмә</item>
+    </plurals>
+    <plurals name="wikipedia_languages_remove_dialog_title">
+        <item quantity="other">Сайланган телләрне бетерергәме?</item>
+        <item quantity="one">Сайланган телне бетерергәме?</item>
+    </plurals>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.wikipedia.views.WikiCardView android:id="@id/overflow_card_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-2.0dip" android:layout_marginEnd="2.0dip" app:cardUseCompatPadding="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:background="?paper_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="180.0dip">
+        <com.google.android.material.textview.MaterialTextView android:id="@id/overflow_forward" android:text="@string/nav_item_forward" android:drawablePadding="16.0dip" app:drawableStartCompat="@drawable/ic_arrow_forward_black_24dp" app:drawableTint="?material_theme_secondary_color" style="@style/OverflowMenuItem" />
+        <com.google.android.material.textview.MaterialTextView android:id="@id/overflow_find_in_page" android:text="@string/menu_page_find_in_page" android:drawablePadding="16.0dip" app:drawableStartCompat="@drawable/ic_find_in_page" app:drawableTint="?material_theme_secondary_color" style="@style/OverflowMenuItem" />
+        <com.google.android.material.textview.MaterialTextView android:id="@id/overflow_share" android:text="@string/menu_page_share" android:drawablePadding="16.0dip" app:drawableStartCompat="@drawable/ic_share_white_24dp" app:drawableTint="?material_theme_secondary_color" style="@style/OverflowMenuItem" />
+        <com.google.android.material.textview.MaterialTextView android:id="@id/overflow_new_tab" android:text="@string/menu_new_tab" android:drawablePadding="16.0dip" app:drawableStartCompat="@drawable/ic_add_gray_white_24dp" app:drawableTint="?material_theme_secondary_color" style="@style/OverflowMenuItem" />
+        <com.google.android.material.textview.MaterialTextView android:id="@id/overflow_feed" android:text="@string/feed" android:drawablePadding="16.0dip" app:drawableStartCompat="@drawable/ic_globe" app:drawableTint="?material_theme_secondary_color" style="@style/OverflowMenuItem" />
+    </LinearLayout>
+</org.wikipedia.views.WikiCardView>
